@@ -16,12 +16,11 @@ The project is organized into several key directories and files:
 
 *   `cmd/main.go`: The main entry point for the Go application. It initializes the configuration, database, and message handlers.
 *   `internal/`: This directory contains the core logic of the Go application, separated into packages for configuration (`config`), database interaction (`database`), message handling (`handler`), and data models (`models`).
-*   `docker-compose.yml`: This file can be used to define and run multi-container Docker applications, particularly for setting up the required services like Kafka and MQTT brokers.
-*   `belt_presense.db`: The SQLite database file used for state management.
 
 The following files are generated locally and should not be committed to the repository:
 *   `go.mod`, `go.sum`: These files manage the Go module dependencies and are created by running `go mod tidy`.
 *   `venv_beltStream/`: This is a Python virtual environment directory created for the optional testing script.
+*   `belt_presense.db`: The SQLite database file used for state management.
 
 ## Getting Started
 
@@ -45,9 +44,11 @@ The following files are generated locally and should not be committed to the rep
 1.  **Configure your environment:** Create a `.env` file for your local environment. You can use the `.env.prod` file as a template.
 
 2.  **Start the Go application:**
+    The application can be run using the following command, which includes the necessary build flags for CGO.
     ```bash
-    go run cmd/main.go
+    go run -tags=CGO_ENABLED_1 cmd/main.go
     ```
+    This command will use the `.env` file in the root directory for environment variables.
 
 ## Optional: Local Testing with `belt_app_streaming.py`
 
