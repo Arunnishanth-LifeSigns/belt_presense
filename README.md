@@ -1,23 +1,27 @@
 # Belt Presence Monitoring System
 
-This project is a comprehensive system designed to monitor the presence of a belt, likely in a safety or operational context. It processes sensor data, provides real-time streaming, and stores presence information in a database. The system is built with a combination of Go and Python, utilizing technologies like Kafka and MQTT for messaging.
+This project is a comprehensive system designed to monitor the presence of a belt, likely in a safety or operational context. It processes sensor data in real-time and stores presence information in a database. The system is built using Go and utilizes technologies like Kafka and MQTT for messaging.
 
-## Key Features
+## Architecture
 
-*   **Real-time Data Processing:** The system is capable of processing sensor data in real-time to determine belt presence.
-*   **Database Storage:** Presence information is stored in a SQLite database (`belt_presense.db`), allowing for historical data analysis and reporting.
-*   **Messaging Integration:** The Go application is designed to work with Kafka and MQTT, providing flexibility in how data is received and processed.
+The application is designed with a clear separation of concerns for robust and scalable data processing:
+
+*   **Kafka (`kafka_handler.go`):** The core data stream of belt sensor data is processed through Kafka. The application consumes data from a specified Kafka topic.
+*   **MQTT (`mqtt_handler.go`):** MQTT is used for control signals. It listens for `start` and `stop` commands from an upstream sync service, which allows for dynamic control of the monitoring process.
+*   **SQLite (`sqlite.go`):** The application uses a SQLite database for state management. This allows the application to keep track of its operational state and initiate restarts appropriately, ensuring data integrity and continuity.
 
 ## Project Structure
 
 The project is organized into several key directories and files:
 
 *   `cmd/main.go`: The main entry point for the Go application. It initializes the configuration, database, and message handlers.
-*   `internal/`: This directory contains the core logic of the Go application, separated into packages for configuration, database interaction, message handling, and data models.
-*   `processed_data/`: This directory contains JSON files with processed data from the sensors, organized by patient ID.
-*   `go.mod` and `go.sum`: These files manage the Go module dependencies for the project.
-*   `docker-compose.yml`: This file can be used to define and run multi-container Docker applications.
-*   `belt_presense.db`: SQLite database for storing presence information.
+*   `internal/`: This directory contains the core logic of the Go application, separated into packages for configuration (`config`), database interaction (`database`), message handling (`handler`), and data models (`models`).
+*   `docker-compose.yml`: This file can be used to define and run multi-container Docker applications, particularly for setting up the required services like Kafka and MQTT brokers.
+*   `belt_presense.db`: The SQLite database file used for state management.
+
+The following files are generated locally and should not be committed to the repository:
+*   `go.mod`, `go.sum`: These files manage the Go module dependencies and are created by running `go mod tidy`.
+*   `venv_beltStream/`: This is a Python virtual environment directory created for the optional testing script.
 
 ## Getting Started
 
@@ -31,87 +35,95 @@ The project is organized into several key directories and files:
 
 1.  **Set up the project:** Ensure you have the project files on your local machine.
 
-2.  **Install Go dependencies:**
+2.  **Install Go dependencies:** This command will download the necessary Go modules and create the `go.mod` and `go.sum` files.
     ```bash
     go mod tidy
     ```
 
 ### Running the Application
 
-1.  **Start the Go application:**
+1.  **Configure your environment:** Create a `.env` file for your local environment. You can use the `.env.prod` file as a template.
+
+2.  **Start the Go application:**
     ```bash
     go run cmd/main.go
     ```
 
-## Testing with `belt_app_streaming.py`
+## Optional: Local Testing with `belt_app_streaming.py`
 
 For testing purposes, a Python script `belt_app_streaming.py` is included. 
-**This script is only for testing and local development. It does not enable real-time monitoring in a production environment and is unrelated to the core application features.** 
-It simulates the data flow of belt sensors and sends the data to the Kafka and MQTT brokers.
+**This script is only for testing and local development. It is not part of the core application and does not enable real-time monitoring in a production environment.**
 
-To use the script for local testing, you need to have the following applications running in the background:
-*   Kafka
-*   MQTT
+When this script is run, it generates the `processed_data/` directory, which contains JSON files simulating the sensor data output. This directory is a result of the testing script and is not part of the main application's data flow.
 
-The `.env` file should be configured for your local environment. The default configuration is as follows:
+### Setting up the Python Test Environment
 
-```
-# Local Development .env
+1.  **Create a Python virtual environment:**
+    ```bash
+    python -m venv venv_beltStream
+    ```
 
-# Kafka Configuration
-KAFKA_BROKERS=localhost:9092
-VITALS_TOPIC=patient-vitals-data-topic
-CONSUMER_GROUP=belt_presense
+2.  **Activate the virtual environment:**
+    *   **Windows:**
+        ```bash
+        .\venv_beltStream\Scripts\activate
+        ```
+    *   **macOS/Linux:**
+        ```bash
+        source venv_beltStream/bin/activate
+        ```
 
-# Presense API Configuration (Using Test/Staging)
-PRESENSE_API_ENDPOINT=https://staging-vitals.presense.icu/data
-PRESENSE_API_KEY=814xqfGJWSVfKgfFOvQz24MLAuRsuDA3
-DATA_SOURCE=Arun-Local
-USE_TEST_URL=true
+3.  **Install Python dependencies:**
+    ```bash
+    pip install -r requirements.txt 
+    ```
+    *(Note: You may need to create a `requirements.txt` file with the necessary libraries, such as `paho-mqtt` and `kafka-python`)*
 
-# MQTT Configuration (Local)
-MQTT_BROKER_URL=tcp://localhost:1883
-MQTT_CLIENT_ID=MqttCallService_local
-MQTT_USERNAME=
-MQTT_PASSWORD=
+### Running the Test Script
 
-# Application Configuration
-DB_PATH=../belt_presense.db
-WRITE_TO_FILE=true
-LOG_TO_CONSOLE=true
-```
+To use the script for local testing, you need to have Kafka and MQTT brokers running in the background. The `.env` file should be configured for your local environment.
 
-To run the testing script:
 ```bash
 python belt_app_streaming.py
 ```
 
-## Additional Feature: Automated Deployment with `deploy.sh`
+## Deployment
 
-The project includes an optional deployment script (`deploy.sh`) to facilitate easy deployment to a target environment. This script is an additional feature for automating the deployment process.
+You can deploy the application manually or use the provided `deploy.sh` script for an automated process.
 
-The `deploy.sh` script performs the following actions:
+### Manual Deployment
 
+1.  **Build the Go application:** Create a binary for your target server's architecture. For example, for a Linux server:
+    ```bash
+    GOOS=linux GOARCH=amd64 go build -o belt_presense_app cmd/main.go
+    ```
+
+2.  **Prepare the deployment files:** Create a directory with the following files:
+    *   The compiled binary (`belt_presense_app`)
+    *   The production environment file (`.env.prod`), renamed to `.env`
+    *   An `install.sh` script to move the files to the correct location and set up a service.
+
+3.  **Transfer the files to the server:** Use `scp` or another method to copy the files to your target server.
+
+4.  **Run the installation script:** SSH into the server and execute the `install.sh` script.
+
+### Automated Deployment with `deploy.sh`
+
+The project includes a `deploy.sh` script that automates the deployment process, which is particularly useful when deploying to a server behind a bastion (jump) host.
+
+The script performs the following steps:
 1.  **Builds the Go application** for a Linux ARM64 environment.
-2.  **Creates a deployment package** (`package.tar.gz`) containing the binary, `install.sh`, and the production configuration file (`.env.prod` renamed to `.env`).
-3.  **Transfers the package** to the target server via a bastion host.
-4.  **Executes the `install.sh` script** on the target server to install the application.
-5.  **Cleans up** the temporary files on the target and local machines.
+2.  **Creates a deployment package** (`package.tar.gz`) containing the binary, `install.sh`, and the production configuration (`.env.prod` renamed to `.env`).
+3.  **Transfers the package** to the target server by first copying it to the bastion host and then to the target.
+4.  **Executes the `install.sh` script** on the target server.
+5.  **Cleans up** temporary files.
 
-### Environment-Specific Changes
+#### Configuration
 
-Before running the `deploy.sh` script, you need to configure the following variables in the script:
+Before running `deploy.sh`, you must update the following variables in the script to match your environment:
 
-*   `BASTION_HOST`: The IP address of the bastion host.
-*   `TARGET_HOST`: The IP address of the target server.
-*   `LOCAL_PEM_KEY`: The path to your local PEM key for accessing the bastion host.
+*   `BASTION_HOST`: The IP address or hostname of your bastion host.
+*   `TARGET_HOST`: The IP address or hostname of your target application server.
+*   `LOCAL_PEM_KEY`: The local path to the PEM key required to access the bastion host.
 
-### Deployment Process
-
-The `deploy.sh` script uses `.env.prod` for the production deployment. This file is copied into the deployment package and renamed to `.env`. The `.env` file is used for local testing only and is not included in the deployment package.
-
-The files are loaded onto the server in the following steps:
-
-1.  The `package.tar.gz` file is copied from your local machine to the `/tmp` directory on the bastion host using `scp`.
-2.  The `package.tar.gz` file is then moved from the bastion host to the home directory (`~/`) on the target server using `scp`.
-3.  The `install.sh` script is executed on the target server, which unpacks the `package.tar.gz` file into a temporary directory (`~/install_package`), runs the installation, and then cleans up the temporary files.
+This script simplifies the deployment process by handling the multi-step file transfer and remote execution in a single command.
