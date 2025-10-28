@@ -1,0 +1,19 @@
+# Docker
+docker-compose.yml
+
+# Go
+go.mod
+go.sum
+
+# Python
+venv_beltStream/
+__pycache__/
+*.pyc
+
+# Data files
+BELT-SN-*.json
+belt_presense.db
+*.log
+
+#IDE
+.vscode/
