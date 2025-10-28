@@ -1,0 +1,1423 @@
+2025/09/17 14:01:50 Using test URL
+2025/09/17 14:01:51 Service restored. Monitoring 0 patients.
+2025/09/17 14:01:51 🚀 Service started successfully. Waiting for messages...
+2025/09/17 14:01:51 Consumer started for topic: patient-vitals-data-topic
+2025/09/17 14:01:51 Consumer started for topic: arrhythmia_svc_start
+2025/09/17 14:10:26 Using test URL
+2025/09/17 14:10:26 Service restored. Monitoring 0 patients.
+2025/09/17 14:10:26 🚀 Service started successfully. Waiting for messages...
+2025/09/17 14:10:26 Consumer started for topic: patient-vitals-data-topic
+2025/09/17 14:10:26 Consumer started for topic: arrhythmia_svc_start
+2025/09/17 14:27:08 Using test URL
+2025/09/17 14:27:08 Service restored. Monitoring 0 patients.
+2025/09/17 14:27:08 🚀 Service started successfully. Waiting for messages...
+2025/09/17 14:27:08 Consumer started for topic: patient-vitals-data-topic
+2025/09/17 14:27:08 Consumer started for topic: arrhythmia_svc_start
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-docker-001
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-docker-001
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-123
+2025/09/17 14:27:15 Ignoring vitals message for inactive or stopped patient: patient-1234
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-123
+2025/09/17 14:27:15 Ignoring vitals message for inactive or stopped patient: patient-1234
+2025/09/17 14:27:15 Ignoring vitals message for inactive or stopped patient: patient-1234
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-123
+2025/09/17 14:27:15 Ignoring vitals message for inactive or stopped patient: patient-1234
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-123
+2025/09/17 14:27:15 Ignoring vitals message for inactive or stopped patient: patient-1234
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-1234
+2025/09/17 14:27:15 ✅ Started monitoring patient: patient-1234
+2025/09/17 14:30:09 🛑 Stopped monitoring patient: patient-1234
+2025/09/17 14:48:24 Using test URL
+2025/09/17 14:48:25 Service restored. Monitoring 0 patients.
+2025/09/17 14:48:25 🚀 Service started successfully. Waiting for messages...
+2025/09/17 14:48:25 Consumer started for topic: patient-vitals-data-topic
+2025/09/17 14:48:25 Consumer started for topic: arrhythmia_svc_start
+2025/09/17 14:49:35 ✅ Started monitoring patient: patient-1234
+2025/09/17 14:50:12 🛑 Stopped monitoring patient: patient-1234
+2025/09/17 15:07:21 Using test URL
+2025/09/17 15:07:21 Service restored. Monitoring 0 patients.
+2025/09/17 15:07:21 🚀 Service started successfully. Waiting for messages...
+2025/09/17 15:07:21 Consumer started for topic: patient-vitals-data-topic
+2025/09/17 15:07:21 Consumer started for topic: arrhythmia_svc_start
+2025/09/17 15:08:06 DB Error starting monitoring for patient patient-1234: database is locked
+2025/09/17 15:08:18 DB Error starting monitoring for patient patient-1234: no such table: monitoring_sessions
+2025/09/17 15:10:24 Using test URL
+2025/09/17 15:10:24 Service restored. Monitoring 0 patients.
+2025/09/17 15:10:24 🚀 Service started successfully. Waiting for messages...
+2025/09/17 15:10:24 Consumer started for topic: patient-vitals-data-topic
+2025/09/17 15:10:24 Consumer started for topic: arrhythmia_svc_start
+2025/09/17 15:10:45 ✅ Started monitoring patient: patient-1234
+2025/09/17 15:11:40 ✅ Started monitoring patient: patient-1234
+2025/09/17 15:14:08 🛑 Stopped monitoring patient: patient-1234
+2025/10/06 10:11:29 Using test URL
+2025/10/06 10:11:29 Service restored. Monitoring 0 patients.
+2025/10/06 10:11:30 Connected to MQTT broker
+2025/10/06 10:11:30 🚀 Service started successfully. Waiting for messages...
+2025/10/06 10:11:30 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 10:11:30 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 10:11:30 Consumer started for topic: patient-vitals-data-topic
+2025/10/06 10:17:33 Connection lost: EOF
+2025/10/06 10:17:33 Connected to MQTT broker
+2025/10/06 10:17:33 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 10:17:33 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 10:36:01 Using test URL
+2025/10/06 10:36:01 Service restored. Monitoring 0 patients.
+2025/10/06 10:36:01 Connected to MQTT broker
+2025/10/06 10:36:01 🚀 Service started successfully. Waiting for messages...
+2025/10/06 10:36:01 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 10:36:01 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 10:36:01 Consumer started for topic: patient-vitals-data-topic
+2025/10/06 15:03:41 Using test URL
+2025/10/06 15:03:41 Service restored. Monitoring 0 patients.
+2025/10/06 15:03:41 🚀 Service started successfully. Waiting for messages...
+2025/10/06 15:03:41 Connected to MQTT broker
+2025/10/06 15:03:41 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 15:03:41 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 15:03:41 Consumer started for topic: patient-vitals-data-topic
+2025/10/06 15:26:39 Using test URL
+2025/10/06 15:26:39 Service restored. Monitoring 0 patients.
+2025/10/06 15:26:39 Connected to MQTT broker
+2025/10/06 15:26:39 🚀 Service started successfully. Waiting for messages...
+2025/10/06 15:26:39 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 15:26:39 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 15:26:39 Consumer started for topic: patient-vitals-data-topic
+2025/10/06 15:33:23 Using test URL
+2025/10/06 15:33:23 Service restored. Monitoring 0 patients.
+2025/10/06 15:33:23 Connected to MQTT broker
+2025/10/06 15:33:23 🚀 Service started successfully. Waiting for messages...
+2025/10/06 15:33:23 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 15:33:23 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 15:33:23 Consumer started for topic: patient-vitals-data-topic
+2025/10/06 17:25:30 Connection lost: EOF
+2025/10/06 17:25:30 Connected to MQTT broker
+2025/10/06 17:25:30 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 17:25:30 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 18:06:02 Connection lost: EOF
+2025/10/06 18:06:02 Connected to MQTT broker
+2025/10/06 18:06:02 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 18:06:02 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 18:44:59 Connection lost: EOF
+2025/10/06 18:45:00 Connected to MQTT broker
+2025/10/06 18:45:00 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 18:45:00 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 19:42:40 Connection lost: EOF
+2025/10/06 19:42:41 Connected to MQTT broker
+2025/10/06 19:42:41 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 19:42:41 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 21:54:12 Connection lost: EOF
+2025/10/06 21:54:13 Connected to MQTT broker
+2025/10/06 21:54:13 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 21:54:13 Subscribed to topic: arrhythmia/svc_action
+2025/10/06 23:12:53 Connection lost: EOF
+2025/10/06 23:12:53 Connected to MQTT broker
+2025/10/06 23:12:53 Subscribed to topic: arrhythmia/svc_start
+2025/10/06 23:12:54 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 01:41:37 Connection lost: EOF
+2025/10/07 01:41:38 Connected to MQTT broker
+2025/10/07 01:41:38 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 01:41:38 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 03:52:55 Connection lost: EOF
+2025/10/07 03:52:56 Connected to MQTT broker
+2025/10/07 03:52:56 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 03:52:56 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 04:32:51 Connection lost: EOF
+2025/10/07 04:32:51 Connected to MQTT broker
+2025/10/07 04:32:51 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 04:32:51 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 05:33:24 Connection lost: EOF
+2025/10/07 05:33:25 Connected to MQTT broker
+2025/10/07 05:33:25 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 05:33:25 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 07:23:00 Connection lost: EOF
+2025/10/07 07:23:00 Connected to MQTT broker
+2025/10/07 07:23:00 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 07:23:00 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 09:20:56 Connection lost: EOF
+2025/10/07 09:20:57 Connected to MQTT broker
+2025/10/07 09:20:57 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 09:20:57 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 09:42:03 Connection lost: EOF
+2025/10/07 09:42:04 Connected to MQTT broker
+2025/10/07 09:42:04 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 09:42:04 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 10:58:02 Connection lost: EOF
+2025/10/07 10:58:02 Connected to MQTT broker
+2025/10/07 10:58:02 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 10:58:02 Subscribed to topic: arrhythmia/svc_action
+2025/10/07 11:27:38 Connection lost: EOF
+2025/10/07 11:27:39 Connected to MQTT broker
+2025/10/07 11:27:39 Subscribed to topic: arrhythmia/svc_start
+2025/10/07 11:27:39 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 12:05:41 Using test URL
+2025/10/15 12:05:41 Service restored. Monitoring 0 patients.
+2025/10/15 12:05:41 Connected to MQTT broker
+2025/10/15 12:05:41 🚀 Service started successfully. Waiting for messages...
+2025/10/15 12:05:41 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 12:05:41 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 12:05:41 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 12:45:02 Using test URL
+2025/10/15 12:45:02 Service restored. Monitoring 0 patients.
+2025/10/15 12:45:02 Connected to MQTT broker
+2025/10/15 12:45:02 🚀 Service started successfully. Waiting for messages...
+2025/10/15 12:45:02 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 12:45:02 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 12:45:02 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 13:33:27 Using test URL
+2025/10/15 13:33:27 Service restored. Monitoring 0 patients.
+2025/10/15 13:33:27 Connected to MQTT broker
+2025/10/15 13:33:27 🚀 Service started successfully. Waiting for messages...
+2025/10/15 13:33:27 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 13:33:27 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 13:33:27 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 13:33:30 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:30 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:30 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:30 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:30 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:32 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:33 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:34 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:35 Ignoring vitals message for inactive or stopped patient: SIM-PAT-6292
+2025/10/15 13:33:35 Received message: {"patchId": "SIM-BELT-5S7B", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 13:33:35 🛑 Stopped monitoring patient: SIM-BELT-5S7B
+2025/10/15 13:33:43 Received message: {"patchId": "SIM-BELT-R0RT", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-7198", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 13:33:43 Ignoring svc_start message for device type: Belt
+2025/10/15 13:33:43 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:44 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:45 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:46 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:47 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:48 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:50 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:51 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:52 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:53 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:54 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:55 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:56 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:57 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:58 Ignoring vitals message for inactive or stopped patient: SIM-PAT-7198
+2025/10/15 13:33:58 Received message: {"patchId": "SIM-BELT-R0RT", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 13:33:58 🛑 Stopped monitoring patient: SIM-BELT-R0RT
+2025/10/15 13:52:29 Using test URL
+2025/10/15 13:52:29 Service restored. Monitoring 0 patients.
+2025/10/15 13:52:29 🚀 Service started successfully. Waiting for messages...
+2025/10/15 13:52:29 Connected to MQTT broker
+2025/10/15 13:52:29 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 13:52:29 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 13:52:29 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 13:52:34 Received message: {"patchId": "SIM-BELT-KOSS", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-2706", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 13:52:34 Ignoring svc_start message for device type: Belt
+2025/10/15 13:52:35 Ignoring vitals message for inactive or stopped patient: SIM-PAT-2706
+2025/10/15 13:52:35 Ignoring vitals message for inactive or stopped patient: SIM-PAT-2706
+2025/10/15 13:52:36 Ignoring vitals message for inactive or stopped patient: SIM-PAT-2706
+2025/10/15 13:52:37 Ignoring vitals message for inactive or stopped patient: SIM-PAT-2706
+2025/10/15 13:52:38 Ignoring vitals message for inactive or stopped patient: SIM-PAT-2706
+2025/10/15 13:52:39 Ignoring vitals message for inactive or stopped patient: SIM-PAT-2706
+2025/10/15 13:52:40 Ignoring vitals message for inactive or stopped patient: SIM-PAT-2706
+2025/10/15 13:52:40 Received message: {"patchId": "SIM-BELT-KOSS", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 13:52:40 🛑 Stopped monitoring patient: SIM-BELT-KOSS
+2025/10/15 14:00:46 Using test URL
+2025/10/15 14:00:46 Service restored. Monitoring 0 patients.
+2025/10/15 14:00:46 Connected to MQTT broker
+2025/10/15 14:00:46 🚀 Service started successfully. Waiting for messages...
+2025/10/15 14:00:46 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 14:00:46 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 14:00:46 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 14:00:49 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:49 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:49 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:49 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:49 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:49 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:49 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:50 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:51 Ignoring vitals message for inactive or stopped patient: SIM-PAT-0781
+2025/10/15 14:00:52 Received message: {"patchId": "SIM-BELT-JP13", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 14:00:52 🛑 Stopped monitoring patient: SIM-BELT-JP13
+2025/10/15 14:00:58 Received message: {"patchId": "SIM-BELT-QKIA", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-8073", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 14:00:58 ✅ Started monitoring patient: SIM-PAT-8073
+2025/10/15 14:01:04 Batch for patient SIM-PAT-8073 is full (7 messages). Processing...
+2025/10/15 14:01:06 Presense API returned non-success status: 404 Not Found
+2025/10/15 14:01:11 Batch for patient SIM-PAT-8073 is full (7 messages). Processing...
+2025/10/15 14:01:11 Presense API returned non-success status: 404 Not Found
+2025/10/15 14:01:18 Batch for patient SIM-PAT-8073 is full (7 messages). Processing...
+2025/10/15 14:01:18 Presense API returned non-success status: 404 Not Found
+2025/10/15 14:01:25 Batch for patient SIM-PAT-8073 is full (7 messages). Processing...
+2025/10/15 14:01:25 Presense API returned non-success status: 404 Not Found
+2025/10/15 14:01:32 Batch for patient SIM-PAT-8073 is full (7 messages). Processing...
+2025/10/15 14:01:32 Presense API returned non-success status: 404 Not Found
+2025/10/15 14:01:34 Received message: {"patchId": "SIM-BELT-QKIA", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 14:01:34 🛑 Stopped monitoring patient: SIM-BELT-QKIA
+2025/10/15 14:10:25 Connection lost: EOF
+2025/10/15 14:10:25 Connected to MQTT broker
+2025/10/15 14:10:25 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 14:10:25 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 16:06:25 Connection lost: EOF
+2025/10/15 16:06:26 Connected to MQTT broker
+2025/10/15 16:06:26 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 16:06:26 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 16:13:07 Using test URL
+2025/10/15 16:13:07 Service restored. Monitoring 1 patients.
+2025/10/15 16:13:07 Connected to MQTT broker
+2025/10/15 16:13:07 🚀 Service started successfully. Waiting for messages...
+2025/10/15 16:13:07 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 16:13:07 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 16:13:07 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 16:13:11 Received message: {"patchId": "SIM-BELT-LH1K", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-4780", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 16:13:11 ✅ Started monitoring patient: SIM-PAT-4780
+2025/10/15 16:13:40 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 16:13:40 Successfully wrote processed data to SIM-BELT-LH1K_1760524991085.json
+2025/10/15 16:13:41 Presense API returned non-success status: 404 Not Found
+2025/10/15 16:14:10 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 16:14:10 Successfully wrote processed data to SIM-BELT-LH1K_1760525021146.json
+2025/10/15 16:14:10 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:22 Using test URL
+2025/10/15 18:34:22 Service restored. Monitoring 2 patients.
+2025/10/15 18:34:22 Connected to MQTT broker
+2025/10/15 18:34:22 🚀 Service started successfully. Waiting for messages...
+2025/10/15 18:34:22 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 18:34:22 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 18:34:22 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525063238.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525093300.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525123363.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525153426.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525183503.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525213571.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525243631.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525273706.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525303806.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525333870.json
+2025/10/15 18:34:25 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:25 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:25 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525363939.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525394011.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525424069.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525454127.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525484195.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525514262.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525544318.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525574380.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525604444.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525634498.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525664561.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525694632.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525724698.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525754760.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525784824.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525814883.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525844953.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525875019.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525905089.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525935159.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525965218.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760525995278.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526025340.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526055402.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526085469.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526115535.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526145600.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526175666.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526205730.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526235783.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526265858.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526295914.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526325982.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526356059.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526386119.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526416198.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526446255.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526476327.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526506395.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526536462.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526566536.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526596598.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526626662.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526656723.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526686787.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526716844.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526746917.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526776984.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526807041.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526837099.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526867172.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526897241.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526927314.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526957395.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760526987459.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527017515.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527047575.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527077633.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:26 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527107687.json
+2025/10/15 18:34:26 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:26 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527137748.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527167818.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527197877.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527227945.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527258022.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527288096.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527318165.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527348235.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527378298.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527408365.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527438443.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527468506.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527498585.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527528643.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527558707.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527588774.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527618845.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527648907.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527678982.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527709038.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527739095.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527769159.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527799229.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527829307.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527859370.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527889443.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527919503.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527949575.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760527979675.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528009737.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528039799.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528069871.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528099930.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528130001.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528160076.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528190148.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528220235.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528250308.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528280364.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528310428.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528340485.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528370552.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528400608.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528430662.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528460745.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528490821.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528520884.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528550954.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528581037.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528611120.json
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528641184.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528671243.json
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528701305.json
+2025/10/15 18:34:27 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:27 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:27 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528731372.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528761437.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528791502.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528821575.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528851640.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528881699.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528911758.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528941821.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760528971893.json
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529001954.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529032025.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529062091.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529092156.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529122223.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529152284.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529182358.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529212410.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529242470.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529272534.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529302602.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529332677.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529362735.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529392796.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529422873.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529452957.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529483024.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529513092.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529543164.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529573224.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529603278.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529633341.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529663399.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529693471.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529723526.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529753586.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529783644.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529813701.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529843757.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529873817.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529903875.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529933936.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529963992.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760529994107.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530024183.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530054240.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530084292.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530114344.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530144397.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530174451.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530204505.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530234558.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530264621.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530294685.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530324750.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530354821.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530384884.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530414943.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530445018.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530475081.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530505151.json
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530535226.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:28 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530565288.json
+2025/10/15 18:34:28 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:28 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:28 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530595351.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530625417.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530655486.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530685557.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530715674.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530745740.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530775811.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530923841.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530953920.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760530984015.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531014091.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531044164.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531074245.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531104311.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531134373.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531164427.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531194485.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531224556.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531254622.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531284687.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531314738.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531344804.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531374868.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531404947.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531435011.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531465071.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531495132.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531525192.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531555258.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531585322.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531615392.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531645450.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531675514.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531705590.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531735662.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531765731.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531795796.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531825863.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531855925.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531885992.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531916051.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531946116.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760531976190.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532006246.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532036304.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532066378.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532096448.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532126513.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532156575.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532186632.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532216696.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532246758.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532276822.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532306886.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532336947.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532367008.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532397066.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532427136.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532457216.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532487313.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532517383.json
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532547443.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:29 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:29 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:29 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532577507.json
+2025/10/15 18:34:29 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760532607570.json
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533185664.json
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533215731.json
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533245795.json
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533275851.json
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533305918.json
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533335975.json
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533366061.json
+2025/10/15 18:34:30 Batch for patient SIM-PAT-4780 is full (30 messages). Processing...
+2025/10/15 18:34:30 No cached vitals found for patient SIM-PAT-4780. BP/SPO2 will be empty.
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Successfully wrote processed data to processed_data\SIM-PAT-4780\SIM-BELT-LH1K_1760533396126.json
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:34:30 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:36:06 Using test URL
+2025/10/15 18:36:06 Service restored. Monitoring 2 patients.
+2025/10/15 18:36:06 Connected to MQTT broker
+2025/10/15 18:36:06 🚀 Service started successfully. Waiting for messages...
+2025/10/15 18:36:06 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 18:36:06 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 18:36:06 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 18:40:28 Using test URL
+2025/10/15 18:40:28 Service restored. Monitoring 2 patients.
+2025/10/15 18:40:28 Connected to MQTT broker
+2025/10/15 18:40:28 🚀 Service started successfully. Waiting for messages...
+2025/10/15 18:40:28 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 18:40:28 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 18:40:28 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 18:40:38 Received message: {"patchId": "SIM-BELT-NKZQ", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-8839", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 18:40:38 ✅ Started monitoring patient: SIM-PAT-8839
+2025/10/15 18:41:08 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:41:08 No cached vitals found for patient SIM-PAT-8839. BP/SPO2 will be empty.
+2025/10/15 18:41:08 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760533838935.json
+2025/10/15 18:41:08 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:41:38 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:41:38 No cached vitals found for patient SIM-PAT-8839. BP/SPO2 will be empty.
+2025/10/15 18:41:38 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760533869030.json
+2025/10/15 18:41:38 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:41:46 Unknown message type received on vitals topic, ignoring.
+2025/10/15 18:42:08 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:42:08 No cached vitals found for patient SIM-PAT-8839. BP/SPO2 will be empty.
+2025/10/15 18:42:08 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760533899088.json
+2025/10/15 18:42:08 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:42:16 Unknown message type received on vitals topic, ignoring.
+2025/10/15 18:42:38 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:42:38 No cached vitals found for patient SIM-PAT-8839. BP/SPO2 will be empty.
+2025/10/15 18:42:38 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760533929143.json
+2025/10/15 18:42:38 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:42:46 Unknown message type received on vitals topic, ignoring.
+2025/10/15 18:43:08 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:43:08 No cached vitals found for patient SIM-PAT-8839. BP/SPO2 will be empty.
+2025/10/15 18:43:08 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760533959210.json
+2025/10/15 18:43:08 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:43:16 Unknown message type received on vitals topic, ignoring.
+2025/10/15 18:43:38 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:43:38 No cached vitals found for patient SIM-PAT-8839. BP/SPO2 will be empty.
+2025/10/15 18:43:38 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760533989270.json
+2025/10/15 18:43:38 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:43:46 Unknown message type received on vitals topic, ignoring.
+2025/10/15 18:44:08 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:44:08 No cached vitals found for patient SIM-PAT-8839. BP/SPO2 will be empty.
+2025/10/15 18:44:08 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534019324.json
+2025/10/15 18:44:08 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:44:16 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:44:38 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:44:38 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:44:38 Successfully wrote processed data to processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534049393.json
+2025/10/15 18:44:38 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:44:46 Unknown message type received on vitals topic, ignoring.
+2025/10/15 18:49:05 Using test URL
+2025/10/15 18:49:05 Service restored. Monitoring 3 patients.
+2025/10/15 18:49:05 Connected to MQTT broker
+2025/10/15 18:49:05 🚀 Service started successfully. Waiting for messages...
+2025/10/15 18:49:05 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 18:49:05 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 18:49:05 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534104532.json
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534134584.json
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534164683.json
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534194749.json
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534224825.json
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534254890.json
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534284944.json
+2025/10/15 18:49:09 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:09 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:09 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:09 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534315006.json
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:09 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:16 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:49:34 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:49:34 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:49:34 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534345062.json
+2025/10/15 18:49:34 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:49:46 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:50:04 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:50:04 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:50:04 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534375128.json
+2025/10/15 18:50:04 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:50:16 Updated vitals cache for patient SIM-PAT-8839
+2025/10/15 18:50:34 Batch for patient SIM-PAT-8839 is full (30 messages). Processing...
+2025/10/15 18:50:34 Enriched payload for patient SIM-PAT-8839 with cached vitals.
+2025/10/15 18:50:34 Successfully wrote processed data to ..\processed_data\SIM-PAT-8839\SIM-BELT-NKZQ_1760534405185.json
+2025/10/15 18:50:34 Presense API returned non-success status: 404 Not Found
+2025/10/15 18:50:46 Updated vitals cache for patient SIM-PAT-8839

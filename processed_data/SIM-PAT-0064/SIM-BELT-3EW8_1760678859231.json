@@ -1,0 +1,242 @@
+{
+  "deviceType": "Belt",
+  "patientRef": "SIM-HOSP-SIM-PAT-0064-ADM-695705",
+  "FacilityId": "SIM-HOSP",
+  "PatchId": "SIM-BELT-3EW8",
+  "PatientName": "Simulated Patient 661",
+  "TimeStamp": 1760678859231,
+  "BedId": "",
+  "Gender": "Female",
+  "Age": 33,
+  "BiosensorStatus": "Connected",
+  "source": "Arun-Local",
+  "SensorData": [
+    {
+      "SEQ": 1,
+      "TimeStamp": 1760678859231,
+      "HR": 85,
+      "rhythmType": "SR",
+      "RR": 18
+    },
+    {
+      "SEQ": 2,
+      "TimeStamp": 1760678860237,
+      "HR": 72,
+      "rhythmType": "SR",
+      "RR": 16
+    },
+    {
+      "SEQ": 3,
+      "TimeStamp": 1760678861241,
+      "HR": 93,
+      "rhythmType": "SR",
+      "RR": 17
+    },
+    {
+      "SEQ": 4,
+      "TimeStamp": 1760678862242,
+      "HR": 76,
+      "rhythmType": "SR",
+      "RR": 20
+    },
+    {
+      "SEQ": 5,
+      "TimeStamp": 1760678863244,
+      "HR": 68,
+      "rhythmType": "SR",
+      "RR": 21
+    },
+    {
+      "SEQ": 6,
+      "TimeStamp": 1760678864247,
+      "HR": 95,
+      "rhythmType": "SR",
+      "RR": 19
+    },
+    {
+      "SEQ": 7,
+      "TimeStamp": 1760678865256,
+      "HR": 70,
+      "rhythmType": "SR",
+      "RR": 19
+    },
+    {
+      "SEQ": 8,
+      "TimeStamp": 1760678866257,
+      "HR": 73,
+      "rhythmType": "SR",
+      "RR": 17
+    },
+    {
+      "SEQ": 9,
+      "TimeStamp": 1760678867267,
+      "HR": 84,
+      "rhythmType": "SR",
+      "RR": 17
+    },
+    {
+      "SEQ": 10,
+      "TimeStamp": 1760678868268,
+      "HR": 66,
+      "rhythmType": "SR",
+      "RR": 16
+    },
+    {
+      "SEQ": 11,
+      "TimeStamp": 1760678869271,
+      "HR": 89,
+      "rhythmType": "SR",
+      "RR": 17
+    },
+    {
+      "SEQ": 12,
+      "TimeStamp": 1760678870272,
+      "HR": 80,
+      "rhythmType": "SR",
+      "RR": 16
+    },
+    {
+      "SEQ": 13,
+      "TimeStamp": 1760678871274,
+      "HR": 89,
+      "rhythmType": "SR",
+      "RR": 22
+    },
+    {
+      "SEQ": 14,
+      "TimeStamp": 1760678872275,
+      "HR": 86,
+      "rhythmType": "SR",
+      "RR": 22
+    },
+    {
+      "SEQ": 15,
+      "TimeStamp": 1760678873277,
+      "HR": 93,
+      "rhythmType": "SR",
+      "RR": 16
+    },
+    {
+      "SEQ": 16,
+      "TimeStamp": 1760678874278,
+      "HR": 84,
+      "rhythmType": "SR",
+      "RR": 18
+    },
+    {
+      "SEQ": 17,
+      "TimeStamp": 1760678875287,
+      "HR": 95,
+      "rhythmType": "SR",
+      "RR": 22
+    },
+    {
+      "SEQ": 18,
+      "TimeStamp": 1760678876289,
+      "HR": 78,
+      "rhythmType": "SR",
+      "RR": 16
+    },
+    {
+      "SEQ": 19,
+      "TimeStamp": 1760678877290,
+      "HR": 79,
+      "rhythmType": "SR",
+      "RR": 18
+    },
+    {
+      "SEQ": 20,
+      "TimeStamp": 1760678878292,
+      "HR": 70,
+      "rhythmType": "SR",
+      "RR": 21
+    },
+    {
+      "SEQ": 21,
+      "TimeStamp": 1760678879293,
+      "HR": 79,
+      "rhythmType": "SR",
+      "RR": 16
+    },
+    {
+      "SEQ": 22,
+      "TimeStamp": 1760678880294,
+      "HR": 77,
+      "rhythmType": "SR",
+      "RR": 20
+    },
+    {
+      "SEQ": 23,
+      "TimeStamp": 1760678881296,
+      "HR": 84,
+      "rhythmType": "SR",
+      "RR": 18
+    },
+    {
+      "SEQ": 24,
+      "TimeStamp": 1760678882297,
+      "HR": 94,
+      "rhythmType": "SR",
+      "RR": 18
+    },
+    {
+      "SEQ": 25,
+      "TimeStamp": 1760678883300,
+      "HR": 71,
+      "rhythmType": "SR",
+      "RR": 19
+    },
+    {
+      "SEQ": 26,
+      "TimeStamp": 1760678884302,
+      "HR": 76,
+      "rhythmType": "SR",
+      "RR": 18
+    },
+    {
+      "SEQ": 27,
+      "TimeStamp": 1760678885303,
+      "HR": 67,
+      "rhythmType": "SR",
+      "RR": 16
+    },
+    {
+      "SEQ": 28,
+      "TimeStamp": 1760678886310,
+      "HR": 67,
+      "rhythmType": "SR",
+      "RR": 20
+    },
+    {
+      "SEQ": 29,
+      "TimeStamp": 1760678887313,
+      "HR": 74,
+      "rhythmType": "SR",
+      "RR": 17
+    },
+    {
+      "SEQ": 30,
+      "TimeStamp": 1760678888316,
+      "HR": 74,
+      "rhythmType": "SR",
+      "RR": 21
+    }
+  ],
+  "SPO2": {
+    "IsValid": false
+  },
+  "PR": {
+    "IsValid": false
+  },
+  "BP": {
+    "IsValid": false
+  },
+  "ArrythmiaData": [
+    {
+      "rhythmType": "SR"
+    }
+  ],
+  "ews": {
+    "ewsInfo": {}
+  }
+}

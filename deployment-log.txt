@@ -1,0 +1,169 @@
+**********************
+PowerShell transcript start
+Start time: 20251015170253
+Username: LAPTOP-SBTGVC9I\Lifesigns_T14
+RunAs User: LAPTOP-SBTGVC9I\Lifesigns_T14
+Configuration Name: 
+Machine: LAPTOP-SBTGVC9I (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\Lifesigns_T14\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 31868
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\deployment-log.txt
+Starting package-based deployment to 10.15.133.150 via Bastion 13.127.85.4...
+Building and packaging the application...
+# runtime/cgo
+gcc_linux_amd64.c: In function '_cgo_sys_thread_start':
+gcc_linux_amd64.c:57:9: error: unknown type name 'sigset_t'; did you mean '_sigset_t'?
+   57 |         sigset_t ign, oset;
+      |         ^~~~~~~~
+      |         _sigset_t
+gcc_linux_amd64.c:62:9: error: implicit declaration of function 'sigfillset' [-Wimplicit-function-declaration]
+   62 |         sigfillset(&ign);
+      |         ^~~~~~~~~~
+gcc_linux_amd64.c:57:23: error: unused variable 'oset' [-Werror=unused-variable]
+   57 |         sigset_t ign, oset;
+      |                       ^~~~
+cc1.exe: all warnings being treated as errors
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist."
+An error occurred: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist.
+**********************
+PowerShell transcript end
+End time: 20251015170303
+**********************
+**********************
+PowerShell transcript start
+Start time: 20251015170556
+Username: LAPTOP-SBTGVC9I\Lifesigns_T14
+RunAs User: LAPTOP-SBTGVC9I\Lifesigns_T14
+Configuration Name: 
+Machine: LAPTOP-SBTGVC9I (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\Lifesigns_T14\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 31868
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\deployment-log.txt
+Starting package-based deployment to 10.15.133.150 via Bastion 13.127.85.4...
+Building and packaging the application...
+
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist."
+An error occurred: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist.
+**********************
+PowerShell transcript end
+End time: 20251015170559
+**********************
+**********************
+PowerShell transcript start
+Start time: 20251015170816
+Username: LAPTOP-SBTGVC9I\Lifesigns_T14
+RunAs User: LAPTOP-SBTGVC9I\Lifesigns_T14
+Configuration Name: 
+Machine: LAPTOP-SBTGVC9I (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\Lifesigns_T14\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 31868
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\deployment-log.txt
+Starting package-based deployment to 10.15.133.150 via Bastion 13.127.85.4...
+Building and packaging the application...
+
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist."
+An error occurred: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist.
+**********************
+PowerShell transcript end
+End time: 20251015170818
+**********************
+**********************
+PowerShell transcript start
+Start time: 20251015170951
+Username: LAPTOP-SBTGVC9I\Lifesigns_T14
+RunAs User: LAPTOP-SBTGVC9I\Lifesigns_T14
+Configuration Name: 
+Machine: LAPTOP-SBTGVC9I (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\Lifesigns_T14\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 31868
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\deployment-log.txt
+Starting package-based deployment to 10.15.133.150 via Bastion 13.127.85.4...
+Building and packaging the application...
+
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist."
+An error occurred: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist.
+**********************
+PowerShell transcript end
+End time: 20251015170952
+**********************
+**********************
+PowerShell transcript start
+Start time: 20251015202143
+Username: LAPTOP-SBTGVC9I\Lifesigns_T14
+RunAs User: LAPTOP-SBTGVC9I\Lifesigns_T14
+Configuration Name: 
+Machine: LAPTOP-SBTGVC9I (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\Lifesigns_T14\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 15816
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\deployment-log.txt
+Starting package-based deployment to 10.15.133.150 via Bastion 13.127.85.4...
+Building and packaging the application...
+# runtime/cgo
+gcc_linux_amd64.c: In function '_cgo_sys_thread_start':
+gcc_linux_amd64.c:57:9: error: unknown type name 'sigset_t'; did you mean '_sigset_t'?
+   57 |         sigset_t ign, oset;
+      |         ^~~~~~~~
+      |         _sigset_t
+gcc_linux_amd64.c:62:9: error: implicit declaration of function 'sigfillset' [-Wimplicit-function-declaration]
+   62 |         sigfillset(&ign);
+      |         ^~~~~~~~~~
+gcc_linux_amd64.c:57:23: error: unused variable 'oset' [-Werror=unused-variable]
+   57 |         sigset_t ign, oset;
+      |                       ^~~~
+cc1.exe: all warnings being treated as errors
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist."
+An error occurred: Cannot find path 'C:\Users\Lifesigns_T14\OneDrive - LS DEVICES PRIVATE LIMITED\Projects\presense\belt_presense\belt-presense-svc' because it does not exist.
+**********************
+PowerShell transcript end
+End time: 20251015202146
+**********************

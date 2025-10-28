@@ -1,0 +1,362 @@
+{
+  "deviceType": "Belt",
+  "patientRef": "SIM-HOSP-SIM-PAT-4428-ADM-806640",
+  "FacilityId": "SIM-HOSP",
+  "PatchId": "SIM-BELT-X91V",
+  "PatientName": "Simulated Patient 857",
+  "TimeStamp": 1760537392683,
+  "BedId": "",
+  "Gender": "Male",
+  "Age": 46,
+  "BiosensorStatus": "Connected",
+  "source": "Arun-Local",
+  "SensorData": [
+    {
+      "SEQ": 1760537392,
+      "TimeStamp": 1760537392683,
+      "HR": 95,
+      "rhythmType": "SR",
+      "RR": 18,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537393,
+      "TimeStamp": 1760537393685,
+      "HR": 84,
+      "rhythmType": "SR",
+      "RR": 22,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537394,
+      "TimeStamp": 1760537394687,
+      "HR": 91,
+      "rhythmType": "SR",
+      "RR": 22,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537395,
+      "TimeStamp": 1760537395689,
+      "HR": 92,
+      "rhythmType": "SR",
+      "RR": 19,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537396,
+      "TimeStamp": 1760537396690,
+      "HR": 74,
+      "rhythmType": "SR",
+      "RR": 17,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537397,
+      "TimeStamp": 1760537397717,
+      "HR": 74,
+      "rhythmType": "SR",
+      "RR": 18,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537398,
+      "TimeStamp": 1760537398718,
+      "HR": 77,
+      "rhythmType": "SR",
+      "RR": 21,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537399,
+      "TimeStamp": 1760537399723,
+      "HR": 77,
+      "rhythmType": "SR",
+      "RR": 22,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537400,
+      "TimeStamp": 1760537400724,
+      "HR": 91,
+      "rhythmType": "SR",
+      "RR": 17,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537401,
+      "TimeStamp": 1760537401726,
+      "HR": 91,
+      "rhythmType": "SR",
+      "RR": 19,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537402,
+      "TimeStamp": 1760537402728,
+      "HR": 77,
+      "rhythmType": "SR",
+      "RR": 19,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537403,
+      "TimeStamp": 1760537403731,
+      "HR": 74,
+      "rhythmType": "SR",
+      "RR": 17,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537404,
+      "TimeStamp": 1760537404734,
+      "HR": 94,
+      "rhythmType": "SR",
+      "RR": 21,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537405,
+      "TimeStamp": 1760537405736,
+      "HR": 75,
+      "rhythmType": "SR",
+      "RR": 18,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537406,
+      "TimeStamp": 1760537406738,
+      "HR": 93,
+      "rhythmType": "SR",
+      "RR": 16,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537407,
+      "TimeStamp": 1760537407740,
+      "HR": 69,
+      "rhythmType": "SR",
+      "RR": 19,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537408,
+      "TimeStamp": 1760537408741,
+      "HR": 93,
+      "rhythmType": "SR",
+      "RR": 16,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537409,
+      "TimeStamp": 1760537409744,
+      "HR": 78,
+      "rhythmType": "SR",
+      "RR": 22,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537410,
+      "TimeStamp": 1760537410745,
+      "HR": 72,
+      "rhythmType": "SR",
+      "RR": 18,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537411,
+      "TimeStamp": 1760537411747,
+      "HR": 72,
+      "rhythmType": "SR",
+      "RR": 19,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537412,
+      "TimeStamp": 1760537412748,
+      "HR": 78,
+      "rhythmType": "SR",
+      "RR": 20,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537413,
+      "TimeStamp": 1760537413750,
+      "HR": 91,
+      "rhythmType": "SR",
+      "RR": 19,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537414,
+      "TimeStamp": 1760537414752,
+      "HR": 68,
+      "rhythmType": "SR",
+      "RR": 18,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537415,
+      "TimeStamp": 1760537415754,
+      "HR": 90,
+      "rhythmType": "SR",
+      "RR": 22,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537416,
+      "TimeStamp": 1760537416756,
+      "HR": 65,
+      "rhythmType": "SR",
+      "RR": 22,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537417,
+      "TimeStamp": 1760537417758,
+      "HR": 93,
+      "rhythmType": "SR",
+      "RR": 22,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537418,
+      "TimeStamp": 1760537418761,
+      "HR": 71,
+      "rhythmType": "SR",
+      "RR": 16,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537419,
+      "TimeStamp": 1760537419763,
+      "HR": 87,
+      "rhythmType": "SR",
+      "RR": 16,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537420,
+      "TimeStamp": 1760537420765,
+      "HR": 84,
+      "rhythmType": "SR",
+      "RR": 19,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    },
+    {
+      "SEQ": 1760537421,
+      "TimeStamp": 1760537421766,
+      "HR": 81,
+      "rhythmType": "SR",
+      "RR": 16,
+      "BODYTEMP": 0,
+      "SKINTEMP": 0,
+      "AMBTEMP_AVG": 0,
+      "TSECG": 0
+    }
+  ],
+  "SPO2": {
+    "IsValid": false
+  },
+  "PR": {
+    "IsValid": false
+  },
+  "BP": {
+    "IsValid": false
+  },
+  "ArrythmiaData": [
+    {
+      "rhythmType": "SR"
+    }
+  ],
+  "ews": {
+    "ewsInfo": {}
+  }
+}

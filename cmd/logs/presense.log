@@ -1,0 +1,1185 @@
+2025/10/17 10:38:54 --- Service Configuration ---
+2025/10/17 10:38:54 Kafka Brokers: localhost:9092
+2025/10/17 10:38:54 MQTT Broker URL: tcp://localhost:1883
+2025/10/17 10:38:54 Presense API Endpoint: https://staging-vitals.presense.icu/data
+2025/10/17 10:38:54 Data Source: Arun-Local
+2025/10/17 10:38:54 DB Path: ../belt_presense.db
+2025/10/17 10:38:54 Presense API Key: [SET]
+2025/10/17 10:38:54 MQTT Password: [NOT SET]
+2025/10/17 10:38:54 ---------------------------
+2025/10/17 10:38:54 Using test URL
+2025/10/17 10:38:54 Service restored. Monitoring 0 patients.
+2025/10/17 10:38:54 Connected to MQTT broker
+2025/10/17 10:38:54 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/17 10:38:54 🚀 Service started successfully. Waiting for messages...
+2025/10/17 10:38:54 Subscribed to topic: arrhythmia/svc_start
+2025/10/17 10:38:54 Subscribed to topic: arrhythmia/svc_action
+2025/10/17 10:38:54 Consumer started for topic 'patient-vitals-data-topic' with group ID 'belt_presense'
+2025/10/17 10:39:21 Received message: {"patchId": "SIM-BELT-S68G", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-7555", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 10:39:21 ✅ Started monitoring patient: SIM-PAT-7555
+2025/10/17 10:39:26 Updated vitals cache for patient SIM-PAT-7555
+2025/10/17 10:39:51 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:39:54 
+--- Housekeeping Report ---
+  - Active Belts (1): [SIM-BELT-S68G]
+  - Inactive Belts (0): []
+  - Recent Vitals (1): [SIM-BELT-S68G]
+  - Stale Caches Cleared: 0
+---------------------------
+2025/10/17 10:39:54 Housekeeping: Successfully updated last streamed time for 1 patients in DB.
+2025/10/17 10:39:56 Updated vitals cache for patient SIM-PAT-7555
+2025/10/17 10:40:21 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:40:26 Updated vitals cache for patient SIM-PAT-7555
+2025/10/17 10:40:51 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:40:54 
+--- Housekeeping Report ---
+  - Active Belts (1): [SIM-BELT-S68G]
+  - Inactive Belts (0): []
+  - Recent Vitals (1): [SIM-BELT-S68G]
+  - Stale Caches Cleared: 0
+---------------------------
+2025/10/17 10:40:54 Housekeeping: Successfully updated last streamed time for 1 patients in DB.
+2025/10/17 10:40:56 Updated vitals cache for patient SIM-PAT-7555
+2025/10/17 10:41:21 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:41:26 Updated vitals cache for patient SIM-PAT-7555
+2025/10/17 10:41:35 Received message: {"patchId": "SIM-BELT-S68G", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 10:41:35 🛑 Stopped monitoring patient: SIM-PAT-7555
+2025/10/17 10:41:54 
+--- Housekeeping Report ---
+  - Active Belts (0): []
+  - Inactive Belts (1): [SIM-BELT-S68G]
+  - Recent Vitals (1): [SIM-BELT-S68G]
+  - Stale Caches Cleared: 0
+---------------------------
+2025/10/17 10:41:54 Housekeeping: Successfully updated last streamed time for 1 patients in DB.
+2025/10/17 10:42:54 
+--- Housekeeping Report ---
+  - Active Belts (0): []
+  - Inactive Belts (1): [SIM-BELT-S68G]
+  - Recent Vitals (1): [SIM-BELT-S68G]
+  - Stale Caches Cleared: 0
+---------------------------
+2025/10/17 10:43:54 
+--- Housekeeping Report ---
+  - Active Belts (0): []
+  - Inactive Belts (1): [SIM-BELT-S68G]
+  - Recent Vitals (1): [SIM-BELT-S68G]
+  - Stale Caches Cleared: 0
+---------------------------
+2025/10/17 10:45:47 --- Service Configuration ---
+2025/10/17 10:45:47 Kafka Brokers: localhost:9092
+2025/10/17 10:45:47 MQTT Broker URL: tcp://localhost:1883
+2025/10/17 10:45:47 Presense API Endpoint: https://staging-vitals.presense.icu/data
+2025/10/17 10:45:47 Data Source: Arun-Local
+2025/10/17 10:45:47 DB Path: ../belt_presense.db
+2025/10/17 10:45:47 Presense API Key: [SET]
+2025/10/17 10:45:47 MQTT Password: [NOT SET]
+2025/10/17 10:45:47 ---------------------------
+2025/10/17 10:45:47 Using test URL
+2025/10/17 10:45:47 Service restored. Monitoring 0 patients.
+2025/10/17 10:45:47 Connected to MQTT broker
+2025/10/17 10:45:47 🚀 Service started successfully. Waiting for messages...
+2025/10/17 10:45:47 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/17 10:45:47 Subscribed to topic: arrhythmia/svc_start
+2025/10/17 10:45:47 Subscribed to topic: arrhythmia/svc_action
+2025/10/17 10:45:47 Consumer started for topic 'patient-vitals-data-topic' with group ID 'belt_presense'
+2025/10/17 10:45:52 Received message: {"patchId": "SIM-BELT-BBQE", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-9794", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 10:45:53 ✅ Started monitoring patient: SIM-PAT-9794
+2025/10/17 10:45:57 Updated vitals cache for patient SIM-PAT-9794: SPO2=97, PR=94, BP=132/76
+2025/10/17 10:46:22 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:46:27 Updated vitals cache for patient SIM-PAT-9794: SPO2=97, PR=82
+2025/10/17 10:46:47 
+--- Housekeeping Report ---
+  - Patient: SIM-PAT-9794 | Device: SIM-BELT-BBQE | Status: running | Recent Vitals: Yes
+  Stale Caches Cleared: 0
+---------------------------
+2025/10/17 10:46:47 Housekeeping: Successfully updated last streamed time for 1 patients in DB.
+2025/10/17 10:46:52 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:46:57 Updated vitals cache for patient SIM-PAT-9794: SPO2=98, PR=60
+2025/10/17 10:47:22 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:47:27 Updated vitals cache for patient SIM-PAT-9794: SPO2=97, PR=95
+2025/10/17 10:47:47 
+--- Housekeeping Report ---
+  - Patient: SIM-PAT-9794 | Device: SIM-BELT-BBQE | Status: running | Recent Vitals: Yes
+  Stale Caches Cleared: 0
+---------------------------
+2025/10/17 10:47:47 Housekeeping: Successfully updated last streamed time for 1 patients in DB.
+2025/10/17 10:47:52 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:47:57 Updated vitals cache for patient SIM-PAT-9794: SPO2=96, PR=89
+2025/10/17 10:48:17 Received message: {"patchId": "SIM-BELT-BBQE", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 10:48:17 🛑 Stopped monitoring patient: SIM-PAT-9794
+2025/10/17 10:57:09 --- Service Configuration ---
+2025/10/17 10:57:09 Kafka Brokers: localhost:9092
+2025/10/17 10:57:09 MQTT Broker URL: tcp://localhost:1883
+2025/10/17 10:57:09 Presense API Endpoint: https://staging-vitals.presense.icu/data
+2025/10/17 10:57:09 Data Source: Arun-Local
+2025/10/17 10:57:09 DB Path: ../belt_presense.db
+2025/10/17 10:57:09 Presense API Key: [SET]
+2025/10/17 10:57:09 MQTT Password: [NOT SET]
+2025/10/17 10:57:09 ---------------------------
+2025/10/17 10:57:09 Using test URL
+2025/10/17 10:57:09 Service restored. Monitoring 0 patients.
+2025/10/17 10:57:09 Connected to MQTT broker
+2025/10/17 10:57:09 🚀 Service started successfully. Waiting for messages...
+2025/10/17 10:57:09 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/17 10:57:09 Subscribed to topic: arrhythmia/svc_start
+2025/10/17 10:57:09 Subscribed to topic: arrhythmia/svc_action
+2025/10/17 10:57:09 Consumer started for topic 'patient-vitals-data-topic' with group ID 'belt_presense'
+2025/10/17 10:57:17 Received message: {"patchId": "SIM-BELT-TO3M", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-2076", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 10:57:17 ✅ Started monitoring patient: SIM-PAT-2076
+2025/10/17 10:57:31 Updated vitals cache for patient SIM-PAT-2076: SPO2=98, PR=73, BP=123/81
+2025/10/17 10:57:34 Received message: {"patchId": "SIM-BELT-9N4X", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-9363", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 10:57:34 ✅ Started monitoring patient: SIM-PAT-9363
+2025/10/17 10:57:39 Received message: {"patchId": "SIM-BELT-3EW8", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-0064", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 10:57:39 ✅ Started monitoring patient: SIM-PAT-0064
+2025/10/17 10:57:47 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:01 Updated vitals cache for patient SIM-PAT-2076: SPO2=97, PR=85
+2025/10/17 10:58:03 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:08 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:09 Housekeeping: Updated last streamed time for 3 patients in DB.
+2025/10/17 10:58:09 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-2076    | SIM-BELT-TO3M   | true       | SIM-LEPU-O1DW     
+SIM-PAT-9363    | SIM-BELT-9N4X   | true       | none              
+SIM-PAT-0064    | SIM-BELT-3EW8   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 10:58:17 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:23 Received message: {"patchId": "SIM-BELT-17RH", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-8652", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 10:58:23 ✅ Started monitoring patient: SIM-PAT-8652
+2025/10/17 10:58:27 Updated vitals cache for patient SIM-PAT-0064: SPO2=98, PR=86, BP=125/76
+2025/10/17 10:58:31 Updated vitals cache for patient SIM-PAT-2076: SPO2=95, PR=91
+2025/10/17 10:58:33 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:38 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:47 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:52 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:58:57 Updated vitals cache for patient SIM-PAT-0064: SPO2=99, PR=81
+2025/10/17 10:59:01 Updated vitals cache for patient SIM-PAT-2076: SPO2=96, PR=88
+2025/10/17 10:59:03 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:08 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:09 Housekeeping: Updated last streamed time for 4 patients in DB.
+2025/10/17 10:59:09 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-8652    | SIM-BELT-17RH   | true       | none              
+SIM-PAT-2076    | SIM-BELT-TO3M   | true       | SIM-LEPU-O1DW     
+SIM-PAT-9363    | SIM-BELT-9N4X   | true       | none              
+SIM-PAT-0064    | SIM-BELT-3EW8   | true       | SIM-LEPU-R4OA     
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 10:59:17 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:22 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:27 Updated vitals cache for patient SIM-PAT-0064: SPO2=96, PR=62
+2025/10/17 10:59:31 Updated vitals cache for patient SIM-PAT-2076: SPO2=98, PR=68
+2025/10/17 10:59:33 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:38 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:46 Received message: {"patchId": "SIM-BELT-9N4X", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 10:59:46 🛑 Stopped monitoring patient: SIM-PAT-9363
+2025/10/17 10:59:47 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:52 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 10:59:57 Updated vitals cache for patient SIM-PAT-0064: SPO2=95, PR=75
+2025/10/17 11:00:01 Updated vitals cache for patient SIM-PAT-2076: SPO2=98, PR=92
+2025/10/17 11:00:08 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:00:09 Housekeeping: Updated last streamed time for 4 patients in DB.
+2025/10/17 11:00:09 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-0064    | SIM-BELT-3EW8   | true       | SIM-LEPU-R4OA     
+SIM-PAT-8652    | SIM-BELT-17RH   | true       | none              
+SIM-PAT-2076    | SIM-BELT-TO3M   | true       | SIM-LEPU-O1DW     
+SIM-PAT-9363    | SIM-BELT-9N4X   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:00:17 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:00:22 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:00:27 Updated vitals cache for patient SIM-PAT-0064: SPO2=99, PR=78
+2025/10/17 11:00:32 Updated vitals cache for patient SIM-PAT-2076: SPO2=95, PR=68, BP=126/84
+2025/10/17 11:00:38 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:00:47 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:00:52 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:00:57 Updated vitals cache for patient SIM-PAT-0064: SPO2=99, PR=92
+2025/10/17 11:01:02 Updated vitals cache for patient SIM-PAT-2076: SPO2=99, PR=100
+2025/10/17 11:01:08 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:01:09 Housekeeping: Updated last streamed time for 3 patients in DB.
+2025/10/17 11:01:09 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9363    | SIM-BELT-9N4X   | false      | none              
+SIM-PAT-0064    | SIM-BELT-3EW8   | true       | SIM-LEPU-R4OA     
+SIM-PAT-8652    | SIM-BELT-17RH   | true       | none              
+SIM-PAT-2076    | SIM-BELT-TO3M   | true       | SIM-LEPU-O1DW     
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:01:17 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:01:23 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:01:23 Received message: {"patchId": "SIM-BELT-TO3M", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:01:23 🛑 Stopped monitoring patient: SIM-PAT-2076
+2025/10/17 11:01:23 Received message: {"patchId": "SIM-BELT-3EW8", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:01:23 🛑 Stopped monitoring patient: SIM-PAT-0064
+2025/10/17 11:01:23 Received message: {"patchId": "SIM-BELT-17RH", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:01:23 🛑 Stopped monitoring patient: SIM-PAT-8652
+2025/10/17 11:04:58 --- Service Configuration ---
+2025/10/17 11:04:58 Kafka Brokers: localhost:9092
+2025/10/17 11:04:58 MQTT Broker URL: tcp://localhost:1883
+2025/10/17 11:04:58 Presense API Endpoint: https://staging-vitals.presense.icu/data
+2025/10/17 11:04:58 Data Source: Arun-Local
+2025/10/17 11:04:58 DB Path: ../belt_presense.db
+2025/10/17 11:04:58 Presense API Key: [SET]
+2025/10/17 11:04:58 MQTT Password: [NOT SET]
+2025/10/17 11:04:58 ---------------------------
+2025/10/17 11:04:58 Using test URL
+2025/10/17 11:04:58 Service restored. Monitoring 0 patients.
+2025/10/17 11:04:58 🚀 Service started successfully. Waiting for messages...
+2025/10/17 11:04:58 Connected to MQTT broker
+2025/10/17 11:04:58 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/17 11:04:58 Subscribed to topic: arrhythmia/svc_start
+2025/10/17 11:04:58 Subscribed to topic: arrhythmia/svc_action
+2025/10/17 11:04:58 Consumer started for topic 'patient-vitals-data-topic' with group ID 'belt_presense'
+2025/10/17 11:05:06 Received message: {"patchId": "SIM-BELT-MUVO", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-7247", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 11:05:06 ✅ Started monitoring patient: SIM-PAT-7247
+2025/10/17 11:05:11 Updated vitals cache for patient SIM-PAT-7247: SPO2=97, PR=63, BP=133/82
+2025/10/17 11:05:35 [SIM-PAT-7247-1760679335224683800] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:05:41 Updated vitals cache for patient SIM-PAT-7247: SPO2=96, PR=97
+2025/10/17 11:05:43 Received message: {"patchId": "SIM-BELT-ERT8", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-9993", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 11:05:43 ✅ Started monitoring patient: SIM-PAT-9993
+2025/10/17 11:05:44 Received message: {"patchId": "SIM-BELT-97SF", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-2233", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 11:05:44 ✅ Started monitoring patient: SIM-PAT-2233
+2025/10/17 11:05:58 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/17 11:05:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+SIM-PAT-9993    | SIM-BELT-ERT8   | false      | none              
+SIM-PAT-2233    | SIM-BELT-97SF   | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:06:05 [SIM-PAT-7247-1760679365329036000] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:06:11 Updated vitals cache for patient SIM-PAT-7247: SPO2=96, PR=91
+2025/10/17 11:06:12 [SIM-PAT-9993-1760679372496682600] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:06:13 [SIM-PAT-2233-1760679373145823900] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:06:35 [SIM-PAT-7247-1760679395456743800] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:06:41 Updated vitals cache for patient SIM-PAT-7247: SPO2=96, PR=66
+2025/10/17 11:06:42 [SIM-PAT-9993-1760679402620932300] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:06:43 [SIM-PAT-2233-1760679403266660100] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:06:58 Housekeeping: Updated last streamed time for 3 patients in DB.
+2025/10/17 11:06:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+SIM-PAT-9993    | SIM-BELT-ERT8   | true       | none              
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:07:05 [SIM-PAT-7247-1760679425590007400] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:07:11 Updated vitals cache for patient SIM-PAT-7247: SPO2=95, PR=70
+2025/10/17 11:07:12 [SIM-PAT-9993-1760679432747627900] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:07:13 [SIM-PAT-2233-1760679433466995800] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:07:36 [SIM-PAT-7247-1760679455958930100] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:07:42 Updated vitals cache for patient SIM-PAT-7247: SPO2=95, PR=91
+2025/10/17 11:07:43 [SIM-PAT-9993-1760679463007307100] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:07:43 [SIM-PAT-2233-1760679463791168000] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:07:58 Housekeeping: Updated last streamed time for 3 patients in DB.
+2025/10/17 11:07:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9993    | SIM-BELT-ERT8   | true       | none              
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:08:06 [SIM-PAT-7247-1760679486065712600] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:08:12 Updated vitals cache for patient SIM-PAT-7247: SPO2=96, PR=87, BP=116/80
+2025/10/17 11:08:13 [SIM-PAT-9993-1760679493081767300] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:08:13 [SIM-PAT-2233-1760679493848400200] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:08:15 Received message: {"patchId": "SIM-BELT-ERT8", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:08:15 🛑 Stopped monitoring patient: SIM-PAT-9993
+2025/10/17 11:08:36 [SIM-PAT-7247-1760679516137835700] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:08:42 Updated vitals cache for patient SIM-PAT-7247: SPO2=98, PR=97
+2025/10/17 11:08:44 [SIM-PAT-2233-1760679524060560500] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:08:58 Housekeeping: Updated last streamed time for 3 patients in DB.
+2025/10/17 11:08:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+Pruned 1 stopped patient(s) from cache.
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:09:06 [SIM-PAT-7247-1760679546408385700] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:09:12 Updated vitals cache for patient SIM-PAT-7247: SPO2=95, PR=60
+2025/10/17 11:09:14 [SIM-PAT-2233-1760679554147133000] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:09:36 [SIM-PAT-7247-1760679576478495900] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:09:42 Updated vitals cache for patient SIM-PAT-7247: SPO2=97, PR=99
+2025/10/17 11:09:44 [SIM-PAT-2233-1760679584243745000] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:09:58 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:09:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:10:06 [SIM-PAT-7247-1760679606560330500] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:10:12 Updated vitals cache for patient SIM-PAT-7247: SPO2=97, PR=91
+2025/10/17 11:10:14 [SIM-PAT-2233-1760679614369405000] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:10:36 [SIM-PAT-7247-1760679636650874600] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:10:42 Updated vitals cache for patient SIM-PAT-7247: SPO2=96, PR=95
+2025/10/17 11:10:44 [SIM-PAT-2233-1760679644406340000] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:10:58 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:10:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:11:06 [SIM-PAT-7247-1760679666728263400] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:11:13 Updated vitals cache for patient SIM-PAT-7247: SPO2=95, PR=69, BP=133/83
+2025/10/17 11:11:14 [SIM-PAT-2233-1760679674500305100] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:11:37 [SIM-PAT-7247-1760679697129188200] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:11:43 Updated vitals cache for patient SIM-PAT-7247: SPO2=99, PR=60
+2025/10/17 11:11:45 [SIM-PAT-2233-1760679704901457000] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:11:58 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:11:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:12:07 [SIM-PAT-7247-1760679727306835300] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:12:13 Updated vitals cache for patient SIM-PAT-7247: SPO2=97, PR=90
+2025/10/17 11:12:15 [SIM-PAT-2233-1760679734997171200] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:12:37 [SIM-PAT-7247-1760679757432168900] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:12:43 Updated vitals cache for patient SIM-PAT-7247: SPO2=99, PR=60
+2025/10/17 11:12:45 [SIM-PAT-2233-1760679765187349300] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:12:58 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:12:58 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:13:11 --- Service Configuration ---
+2025/10/17 11:13:11 Kafka Brokers: localhost:9092
+2025/10/17 11:13:11 MQTT Broker URL: tcp://localhost:1883
+2025/10/17 11:13:11 Presense API Endpoint: https://staging-vitals.presense.icu/data
+2025/10/17 11:13:11 Data Source: Arun-Local
+2025/10/17 11:13:11 DB Path: ../belt_presense.db
+2025/10/17 11:13:11 Presense API Key: [SET]
+2025/10/17 11:13:11 MQTT Password: [NOT SET]
+2025/10/17 11:13:11 ---------------------------
+2025/10/17 11:13:11 Using test URL
+2025/10/17 11:13:11 Service restored. Monitoring 2 patients.
+2025/10/17 11:13:11 Connected to MQTT broker
+2025/10/17 11:13:11 🚀 Service started successfully. Waiting for messages...
+2025/10/17 11:13:11 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/17 11:13:11 Subscribed to topic: arrhythmia/svc_start
+2025/10/17 11:13:11 Subscribed to topic: arrhythmia/svc_action
+2025/10/17 11:13:11 Consumer started for topic 'patient-vitals-data-topic' with group ID 'belt_presense'
+2025/10/17 11:13:45 [SIM-PAT-7247] Updated vitals cache: SPO2=99, PR=82
+2025/10/17 11:13:45 [SIM-PAT-7247] Updated vitals cache: SPO2=96, PR=74
+2025/10/17 11:13:46 [SIM-PAT-2233-459] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:13:46 [SIM-PAT-7247-496] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:13:53 [SIM-PAT-7247-526] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:13:54 [SIM-PAT-2233-489] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:14:11 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:14:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-7247    | SIM-BELT-MUVO   | true       | SIM-LEPU-K1Q4     
+SIM-PAT-2233    | SIM-BELT-97SF   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:14:13 [SIM-PAT-7247] Updated vitals cache: SPO2=99, PR=86, BP=125/75
+2025/10/17 11:14:23 [SIM-PAT-7247-556] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:14:24 [SIM-PAT-2233-519] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:14:41 Received message: {"patchId": "SIM-BELT-MUVO", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:14:41 🛑 Stopped monitoring patient: SIM-PAT-7247
+2025/10/17 11:14:41 Received message: {"patchId": "SIM-BELT-97SF", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:14:41 🛑 Stopped monitoring patient: SIM-PAT-2233
+2025/10/17 11:15:11 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:15:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+No active patients being monitored.
+Pruned 2 stopped patient(s) from cache.
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:15:43 Received message: {"patchId": "SIM-BELT-RN9K", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-3879", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 11:15:43 ✅ Started monitoring patient: SIM-PAT-3879
+2025/10/17 11:15:47 [SIM-PAT-3879] Updated vitals cache: SPO2=96, PR=89, BP=135/85
+2025/10/17 11:15:49 Received message: {"patchId": "SIM-BELT-71BY", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-6221", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/17 11:15:49 ✅ Started monitoring patient: SIM-PAT-6221
+2025/10/17 11:15:51 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:15:51 [SIM-LONE-1822] Updated vitals cache: SPO2=96, PR=62, BP=128/86
+2025/10/17 11:16:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-3879    | SIM-BELT-RN9K   | false      | SIM-LEPU-O3AT     
+SIM-PAT-6221    | SIM-BELT-71BY   | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:16:13 [SIM-PAT-3879-30] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:16:17 [SIM-PAT-3879] Updated vitals cache: SPO2=99, PR=74
+2025/10/17 11:16:18 [SIM-PAT-6221-30] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:16:21 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:16:21 [SIM-LONE-1822] Updated vitals cache: SPO2=97, PR=69
+2025/10/17 11:16:42 [SIM-PAT-3879-60] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:16:47 [SIM-PAT-3879] Updated vitals cache: SPO2=96, PR=70
+2025/10/17 11:16:48 [SIM-PAT-6221-60] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:16:51 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:16:51 [SIM-LONE-1822] Updated vitals cache: SPO2=95, PR=83
+2025/10/17 11:17:11 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:17:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-6221    | SIM-BELT-71BY   | true       | none              
+SIM-PAT-3879    | SIM-BELT-RN9K   | true       | SIM-LEPU-O3AT     
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:17:13 [SIM-PAT-3879-90] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:17:17 [SIM-PAT-3879] Updated vitals cache: SPO2=97, PR=65
+2025/10/17 11:17:18 [SIM-PAT-6221-90] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:17:21 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:17:21 [SIM-LONE-1822] Updated vitals cache: SPO2=96, PR=80
+2025/10/17 11:17:43 [SIM-PAT-3879-120] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:17:47 [SIM-PAT-3879] Updated vitals cache: SPO2=98, PR=67
+2025/10/17 11:17:49 [SIM-PAT-6221-120] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:17:51 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:17:51 [SIM-LONE-1822] Updated vitals cache: SPO2=96, PR=62
+2025/10/17 11:18:11 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:18:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-3879    | SIM-BELT-RN9K   | true       | SIM-LEPU-O3AT     
+SIM-PAT-6221    | SIM-BELT-71BY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:18:13 [SIM-PAT-3879-150] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:18:17 [SIM-PAT-3879] Updated vitals cache: SPO2=99, PR=89
+2025/10/17 11:18:19 [SIM-PAT-6221-150] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:18:21 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:18:21 [SIM-LONE-1822] Updated vitals cache: SPO2=99, PR=84
+2025/10/17 11:18:43 [SIM-PAT-3879-180] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:18:49 [SIM-PAT-6221-180] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:18:51 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:18:51 [SIM-LONE-1822] Updated vitals cache: SPO2=99, PR=96, BP=133/85
+2025/10/17 11:19:11 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:19:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-3879    | SIM-BELT-RN9K   | true       | SIM-LEPU-O3AT     
+SIM-PAT-6221    | SIM-BELT-71BY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:19:13 [SIM-PAT-3879-210] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:19:19 [SIM-PAT-6221-210] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:19:21 [SIM-LONE-1822] Received vitals for an inactive patient. Caching data.
+2025/10/17 11:19:21 [SIM-LONE-1822] Updated vitals cache: SPO2=96, PR=63
+2025/10/17 11:19:37 Received message: {"patchId": "SIM-BELT-71BY", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:19:37 🛑 Stopped monitoring patient: SIM-PAT-6221
+2025/10/17 11:19:43 [SIM-PAT-3879-240] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:20:11 Housekeeping: Updated last streamed time for 2 patients in DB.
+2025/10/17 11:20:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-3879    | SIM-BELT-RN9K   | true       | SIM-LEPU-O3AT     
+Pruned 1 stopped patient(s) from cache.
+Stale Vitals Caches Cleared (1): [SIM-LEPU-K1Q4]
+------------------------------------------------------------------
+2025/10/17 11:20:13 [SIM-PAT-3879-270] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:20:43 [SIM-PAT-3879-300] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/17 11:20:56 Received message: {"patchId": "SIM-BELT-RN9K", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/17 11:20:56 🛑 Stopped monitoring patient: SIM-PAT-3879
+2025/10/17 11:21:11 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/17 11:21:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+No active patients being monitored.
+Pruned 1 stopped patient(s) from cache.
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/17 11:22:11 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+No active patients being monitored.
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:21:08 --- Service Configuration ---
+2025/10/27 14:21:08 Kafka Brokers: localhost:9092
+2025/10/27 14:21:08 MQTT Broker URL: tcp://localhost:1883
+2025/10/27 14:21:08 Presense API Endpoint: https://staging-vitals.presense.icu/data
+2025/10/27 14:21:08 Data Source: Arun-Local
+2025/10/27 14:21:08 DB Path: ../belt_presense.db
+2025/10/27 14:21:08 Presense API Key: [SET]
+2025/10/27 14:21:08 MQTT Password: [NOT SET]
+2025/10/27 14:21:08 ---------------------------
+2025/10/27 14:21:08 Using test URL
+2025/10/27 14:21:08 Service restored. Monitoring 0 patients.
+2025/10/27 14:21:08 🚀 Service started successfully. Waiting for messages...
+2025/10/27 14:21:08 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/27 14:21:08 Connected to MQTT broker
+2025/10/27 14:21:08 Subscribed to topic: arrhythmia/svc_start
+2025/10/27 14:21:08 Subscribed to topic: arrhythmia/svc_action
+2025/10/27 14:21:08 Consumer started for topic 'patient-vitals-data-topic' with group ID 'belt_presense'
+2025/10/27 14:22:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+No active patients being monitored.
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:23:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+No active patients being monitored.
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:24:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+No active patients being monitored.
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:24:12 Received message: {"patchId": "SIM-BELT-ZBNY", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-9132", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/27 14:24:12 ✅ Started monitoring patient: SIM-PAT-9132
+2025/10/27 14:24:52 [SIM-PAT-9132-30] Error sending data to Presense API: Post "https://staging-vitals.presense.icu/data": dial tcp: lookup staging-vitals.presense.icu: no such host
+2025/10/27 14:25:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:25:26 [SIM-PAT-9132-60] Error sending data to Presense API: Post "https://staging-vitals.presense.icu/data": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/10/27 14:25:43 [SIM-PAT-9132-90] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:26:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:26:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:26:12 [SIM-PAT-9132-120] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:26:42 [SIM-PAT-9132-150] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:27:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:27:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:27:12 [SIM-PAT-9132-180] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:27:12 Received message: {"patchId": "ShivaTest763", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "ShivaTest763", "deviceType": "biosensor"} from topic: arrhythmia/svc_start
+2025/10/27 14:27:12 ✅ Started monitoring patient: ShivaTest763
+2025/10/27 14:27:44 [SIM-PAT-9132-210] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:28:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:28:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:28:12 [SIM-PAT-9132-240] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:28:43 [SIM-PAT-9132-270] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:29:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:29:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:29:12 [SIM-PAT-9132-300] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:29:56 [SIM-PAT-9132-330] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:30:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:30:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:30:12 [SIM-PAT-9132-360] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:30:42 [SIM-PAT-9132-390] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:31:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:31:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:31:12 [SIM-PAT-9132-420] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:31:42 [SIM-PAT-9132-450] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:32:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:32:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:32:12 [SIM-PAT-9132-480] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:32:42 [SIM-PAT-9132-510] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:33:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:33:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:33:12 [SIM-PAT-9132-540] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:33:42 [SIM-PAT-9132-570] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:34:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:34:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:34:12 [SIM-PAT-9132-600] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:34:42 [SIM-PAT-9132-630] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:35:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:35:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:35:12 [SIM-PAT-9132-660] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:35:43 [SIM-PAT-9132-690] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:36:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:36:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:36:13 [SIM-PAT-9132-720] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:36:43 [SIM-PAT-9132-750] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:37:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:37:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:37:13 [SIM-PAT-9132-780] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:37:43 [SIM-PAT-9132-810] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:38:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:38:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:38:13 [SIM-PAT-9132-840] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:38:43 [SIM-PAT-9132-870] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:39:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:39:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:39:13 [SIM-PAT-9132-900] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:39:43 [SIM-PAT-9132-930] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:40:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:40:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:40:13 [SIM-PAT-9132-960] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:40:43 [SIM-PAT-9132-990] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:41:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:41:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:41:13 [SIM-PAT-9132-1020] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:41:43 [SIM-PAT-9132-1050] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:42:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:42:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:42:13 [SIM-PAT-9132-1080] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:42:43 [SIM-PAT-9132-1110] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:43:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:43:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:43:13 [SIM-PAT-9132-1140] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:43:43 [SIM-PAT-9132-1170] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:44:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:44:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:44:14 [SIM-PAT-9132-1200] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:44:44 [SIM-PAT-9132-1230] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 14:45:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 14:45:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 14:45:14 [SIM-PAT-9132-1260] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:09:52 Connection lost: EOF
+2025/10/27 15:09:52 Connected to MQTT broker
+2025/10/27 15:09:52 Subscribed to topic: arrhythmia/svc_start
+2025/10/27 15:09:52 Subscribed to topic: arrhythmia/svc_action
+2025/10/27 15:09:53 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:09:53 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:10:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | false      | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:10:40 [SIM-PAT-9132-1289] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:10:42 [SIM-PAT-9132-1319] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:11:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:11:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:11:12 [SIM-PAT-9132-1349] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:11:42 [SIM-PAT-9132-1379] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:12:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:12:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:12:12 [SIM-PAT-9132-1409] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:12:42 [SIM-PAT-9132-1439] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:13:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:13:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:13:12 [SIM-PAT-9132-1469] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:13:42 [SIM-PAT-9132-1499] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:14:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:14:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:14:12 [SIM-PAT-9132-1529] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:14:42 [SIM-PAT-9132-1559] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:15:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:15:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:15:12 [SIM-PAT-9132-1589] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:15:42 [SIM-PAT-9132-1619] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:16:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:16:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:16:12 [SIM-PAT-9132-1649] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:16:43 [SIM-PAT-9132-1679] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:17:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:17:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:17:13 [SIM-PAT-9132-1709] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:17:43 [SIM-PAT-9132-1739] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:18:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:18:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:18:13 [SIM-PAT-9132-1769] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:18:43 [SIM-PAT-9132-1799] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:19:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:19:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:19:13 [SIM-PAT-9132-1829] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:19:43 [SIM-PAT-9132-1859] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:20:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:20:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:20:13 [SIM-PAT-9132-1889] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:20:43 [SIM-PAT-9132-1919] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:21:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:21:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:21:13 [SIM-PAT-9132-1949] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:21:43 [SIM-PAT-9132-1979] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:22:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:22:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:22:13 [SIM-PAT-9132-2009] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:22:43 [SIM-PAT-9132-2039] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:23:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:23:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:23:14 [SIM-PAT-9132-2069] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:23:43 [SIM-PAT-9132-2099] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:24:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:24:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:24:14 [SIM-PAT-9132-2129] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:27:54 Connection lost: EOF
+2025/10/27 15:27:55 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:27:55 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:27:55 Connected to MQTT broker
+2025/10/27 15:27:55 Subscribed to topic: arrhythmia/svc_start
+2025/10/27 15:27:55 Subscribed to topic: arrhythmia/svc_action
+2025/10/27 15:33:20 Connection lost: EOF
+2025/10/27 15:33:20 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | false      | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:33:21 Connected to MQTT broker
+2025/10/27 15:33:21 Subscribed to topic: arrhythmia/svc_start
+2025/10/27 15:33:21 Subscribed to topic: arrhythmia/svc_action
+2025/10/27 15:34:02 [SIM-PAT-9132-2155] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:34:02 [SIM-PAT-9132-2185] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:34:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:34:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:34:15 [SIM-PAT-9132-2215] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:34:45 [SIM-PAT-9132-2245] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:35:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:35:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:35:16 [SIM-PAT-9132-2275] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:35:46 [SIM-PAT-9132-2305] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:36:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:36:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:36:16 [SIM-PAT-9132-2335] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:36:46 [SIM-PAT-9132-2365] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:37:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:37:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:37:16 [SIM-PAT-9132-2395] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:37:46 [SIM-PAT-9132-2425] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:38:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:38:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:38:16 [SIM-PAT-9132-2455] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:38:46 [SIM-PAT-9132-2485] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:39:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:39:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:39:16 [SIM-PAT-9132-2515] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:39:46 [SIM-PAT-9132-2545] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:40:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:40:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:40:16 [SIM-PAT-9132-2575] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:40:46 [SIM-PAT-9132-2605] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:41:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:41:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:41:16 [SIM-PAT-9132-2635] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:41:46 [SIM-PAT-9132-2665] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:42:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:42:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:42:16 [SIM-PAT-9132-2695] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:42:46 [SIM-PAT-9132-2725] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:43:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:43:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:43:17 [SIM-PAT-9132-2755] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:43:47 [SIM-PAT-9132-2785] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:44:08 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 15:44:08 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 15:44:17 [SIM-PAT-9132-2815] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 15:44:47 [SIM-PAT-9132-2845] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 16:49:43 --- Service Configuration ---
+2025/10/27 16:49:43 Kafka Brokers: localhost:9092
+2025/10/27 16:49:43 MQTT Broker URL: tcp://localhost:1883
+2025/10/27 16:49:43 Presense API Endpoint: https://staging-vitals.presense.icu/data
+2025/10/27 16:49:43 Data Source: Arun-Local
+2025/10/27 16:49:43 DB Path: ../belt_presense.db
+2025/10/27 16:49:43 Presense API Key: [SET]
+2025/10/27 16:49:43 MQTT Password: [NOT SET]
+2025/10/27 16:49:43 ---------------------------
+2025/10/27 16:49:43 Using test URL
+2025/10/27 16:49:43 Service restored. Monitoring 2 patients.
+2025/10/27 16:49:43 Connected to MQTT broker
+2025/10/27 16:49:43 🚀 Service started successfully. Waiting for messages...
+2025/10/27 16:49:43 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/27 16:49:43 Subscribed to topic: arrhythmia/svc_start
+2025/10/27 16:49:43 Subscribed to topic: arrhythmia/svc_action
+2025/10/27 16:49:43 Consumer started for topic 'patient-vitals-data-topic' with group ID 'belt_presense'
+2025/10/27 16:49:50 [SIM-PAT-9132-2880] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 16:50:43 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 16:50:43 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | true       | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 16:50:46 Received message: {"patchId": "SIM-BELT-VYSD", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-4897", "deviceType": "BIOSENSOR_NEXUS"} from topic: arrhythmia/svc_start
+2025/10/27 16:50:46 ✅ Started monitoring patient: SIM-PAT-4897
+2025/10/27 16:51:19 [SIM-PAT-4897-30] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 16:51:43 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 16:51:43 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | false      | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-4897    | SIM-BELT-VYSD   | true       | none              
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 16:51:45 [SIM-PAT-4897-60] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 16:52:05 [SIM-PAT-4897] Updated vitals cache: SPO2=95, PR=81, BP=125/75
+2025/10/27 16:52:15 [SIM-PAT-4897-90] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 16:52:16 [SIM-LONE-9732] Received vitals for an inactive patient. Caching data.
+2025/10/27 16:52:16 [SIM-LONE-9732] Updated vitals cache: SPO2=96, PR=78, BP=129/75
+2025/10/27 16:52:35 [SIM-PAT-4897] Updated vitals cache: SPO2=96, PR=76
+2025/10/27 16:52:43 Housekeeping: Updated last streamed time for 1 patients in DB.
+2025/10/27 16:52:43 
+--- Housekeeping Report ---
+Patient         | Belt ID         | Streaming? | Recent Vital Device?
+------------------------------------------------------------------
+SIM-PAT-9132    | SIM-BELT-ZBNY   | false      | none              
+ShivaTest763    | ShivaTest763    | false      | none              
+SIM-PAT-4897    | SIM-BELT-VYSD   | true       | SIM-LEPU-IH0S     
+Stale Vitals Caches Cleared (0): none
+------------------------------------------------------------------
+2025/10/27 16:52:45 [SIM-PAT-4897-120] Successfully sent batch to Presense API. Status: 201 Created
+2025/10/27 16:52:46 [SIM-LONE-9732] Received vitals for an inactive patient. Caching data.
+2025/10/27 16:52:46 [SIM-LONE-9732] Updated vitals cache: SPO2=98, PR=90
+2025/10/27 16:52:56 Received message: {"patchId": "SIM-BELT-VYSD", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/27 16:52:56 🛑 Stopped monitoring patient: SIM-PAT-4897

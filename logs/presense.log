@@ -1,0 +1,120 @@
+2025/10/15 19:29:18 Using test URL
+2025/10/15 19:29:18 Service restored. Monitoring 0 patients.
+2025/10/15 19:29:18 🚀 Service started successfully. Waiting for messages...
+2025/10/15 19:29:18 Connected to MQTT broker
+2025/10/15 19:29:18 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/15 19:29:18 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 19:29:18 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 19:29:18 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 19:29:25 Received message: {"patchId": "SIM-BELT-3BGJ", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-9431", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 19:29:25 ✅ Started monitoring patient: SIM-PAT-9431
+2025/10/15 19:29:56 Presense API returned non-success status: 401 Unauthorized
+2025/10/15 19:29:58 Updated vitals cache for patient SIM-PAT-9431
+2025/10/15 19:30:24 Presense API returned non-success status: 401 Unauthorized
+2025/10/15 19:30:28 Updated vitals cache for patient SIM-PAT-9431
+2025/10/15 19:30:32 Received message: {"patchId": "SIM-BELT-3BGJ", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 19:30:32 🛑 Stopped monitoring patient: SIM-PAT-9431
+2025/10/15 19:39:45 Using test URL
+2025/10/15 19:39:45 Service restored. Monitoring 0 patients.
+2025/10/15 19:39:45 Connected to MQTT broker
+2025/10/15 19:39:45 🚀 Service started successfully. Waiting for messages...
+2025/10/15 19:39:45 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/15 19:39:45 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 19:39:45 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 19:39:45 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 19:39:52 Received message: {"patchId": "SIM-BELT-X91V", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-4428", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 19:39:52 ✅ Started monitoring patient: SIM-PAT-4428
+2025/10/15 19:40:25 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 19:40:27 Updated vitals cache for patient SIM-PAT-4428
+2025/10/15 19:40:45 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 19:40:45 Housekeeping: Successfully updated 1 records.
+2025/10/15 19:40:51 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 19:40:57 Updated vitals cache for patient SIM-PAT-4428
+2025/10/15 19:41:21 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 19:41:27 Updated vitals cache for patient SIM-PAT-4428
+2025/10/15 19:41:45 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 19:41:45 Housekeeping: Successfully updated 1 records.
+2025/10/15 19:41:52 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 19:41:57 Updated vitals cache for patient SIM-PAT-4428
+2025/10/15 19:42:08 Received message: {"patchId": "SIM-BELT-X91V", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 19:42:08 🛑 Stopped monitoring patient: SIM-PAT-4428
+2025/10/15 19:42:45 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 19:42:45 Housekeeping: Successfully updated 1 records.
+2025/10/15 19:57:37 Using test URL
+2025/10/15 19:57:37 Service restored. Monitoring 0 patients.
+2025/10/15 19:57:37 Connected to MQTT broker
+2025/10/15 19:57:37 🚀 Service started successfully. Waiting for messages...
+2025/10/15 19:57:37 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/15 19:57:37 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 19:57:37 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 19:57:37 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 19:58:06 Received message: {"patchId": "SIM-BELT-4GP9", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-2556", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 19:58:06 ✅ Started monitoring patient: SIM-PAT-2556
+2025/10/15 19:58:09 Updated vitals cache for patient SIM-PAT-2556
+2025/10/15 19:58:36 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 19:58:37 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 19:58:37 Housekeeping: Successfully updated 1 records.
+2025/10/15 19:58:39 Updated vitals cache for patient SIM-PAT-2556
+2025/10/15 19:59:06 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 19:59:09 Updated vitals cache for patient SIM-PAT-2556
+2025/10/15 19:59:36 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 19:59:37 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 19:59:37 Housekeeping: Successfully updated 1 records.
+2025/10/15 19:59:39 Updated vitals cache for patient SIM-PAT-2556
+2025/10/15 19:59:51 Received message: {"patchId": "SIM-BELT-LULD", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-4715", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 19:59:51 ✅ Started monitoring patient: SIM-PAT-4715
+2025/10/15 19:59:56 Received message: {"patchId": "SIM-BELT-AF7B", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-6265", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 19:59:56 ✅ Started monitoring patient: SIM-PAT-6265
+2025/10/15 20:00:06 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:00:09 Updated vitals cache for patient SIM-PAT-2556
+2025/10/15 20:00:20 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:00:25 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:00:36 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:00:37 Housekeeping: Found 3 patient times to update in DB.
+2025/10/15 20:00:37 Housekeeping: Successfully updated 3 records.
+2025/10/15 20:00:39 Updated vitals cache for patient SIM-PAT-2556
+2025/10/15 20:00:50 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:00:50 Received message: {"patchId": "SIM-BELT-4GP9", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 20:00:50 🛑 Stopped monitoring patient: SIM-PAT-2556
+2025/10/15 20:00:50 Received message: {"patchId": "SIM-BELT-LULD", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 20:00:50 🛑 Stopped monitoring patient: SIM-PAT-4715
+2025/10/15 20:00:50 Received message: {"patchId": "SIM-BELT-AF7B", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 20:00:50 🛑 Stopped monitoring patient: SIM-PAT-6265
+2025/10/15 20:01:37 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 20:01:37 Housekeeping: Successfully updated 1 records.
+2025/10/15 20:07:06 Received message: {"patchId": "SIM-BELT-L5QD", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-4154", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 20:07:06 ✅ Started monitoring patient: SIM-PAT-4154
+2025/10/15 20:07:12 Updated vitals cache for patient SIM-PAT-4154
+2025/10/15 20:07:35 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:07:37 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 20:07:37 Housekeeping: Successfully updated 1 records.
+2025/10/15 20:07:42 Updated vitals cache for patient SIM-PAT-4154
+2025/10/15 20:08:05 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:08:12 Updated vitals cache for patient SIM-PAT-4154
+2025/10/15 20:08:20 Received message: {"patchId": "SIM-BELT-L5QD", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 20:08:20 🛑 Stopped monitoring patient: SIM-PAT-4154
+2025/10/15 20:08:37 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 20:08:37 Housekeeping: Successfully updated 1 records.
+2025/10/15 20:10:32 Using test URL
+2025/10/15 20:10:32 Service restored. Monitoring 0 patients.
+2025/10/15 20:10:32 Connected to MQTT broker
+2025/10/15 20:10:32 🚀 Service started successfully. Waiting for messages...
+2025/10/15 20:10:32 Housekeeping cycle started. Will update DB every 1 minute.
+2025/10/15 20:10:32 Subscribed to topic: arrhythmia/svc_start
+2025/10/15 20:10:32 Subscribed to topic: arrhythmia/svc_action
+2025/10/15 20:10:32 Consumer started for topic: patient-vitals-data-topic
+2025/10/15 20:10:34 Received message: {"patchId": "SIM-BELT-E34A", "facilityId": "SIM-HOSP", "serviceId": "arrhythmia", "providerId": "presense", "patientId": "SIM-PAT-3005", "deviceType": "Belt"} from topic: arrhythmia/svc_start
+2025/10/15 20:10:34 ✅ Started monitoring patient: SIM-PAT-3005
+2025/10/15 20:10:44 Updated vitals cache for patient SIM-PAT-3005
+2025/10/15 20:11:04 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:11:14 Updated vitals cache for patient SIM-PAT-3005
+2025/10/15 20:11:32 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 20:11:32 Housekeeping: Successfully updated 1 records.
+2025/10/15 20:11:33 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:11:44 Updated vitals cache for patient SIM-PAT-3005
+2025/10/15 20:12:03 Successfully sent batch to Presense API. Status: 201 Created
+2025/10/15 20:12:14 Updated vitals cache for patient SIM-PAT-3005
+2025/10/15 20:12:16 Received message: {"patchId": "SIM-BELT-E34A", "action": "stop"} from topic: arrhythmia/svc_action
+2025/10/15 20:12:16 🛑 Stopped monitoring patient: SIM-PAT-3005
+2025/10/15 20:12:32 Housekeeping: Found 1 patient times to update in DB.
+2025/10/15 20:12:32 Housekeeping: Successfully updated 1 records.
