@@ -14,7 +14,7 @@ This project is a comprehensive system designed to monitor the presence of a bel
 
 The project is organized into several key directories and files:
 
-*   `belt_app_streaming.py`: A Python script responsible for streaming belt presence data. This is a critical component for real-time data dissemination.
+*   `belt_app_streaming.py`: A Python script for testing purposes that simulates data flow. It is optional to use.
 *   `deploy.sh`: A shell script that automates the deployment process, making it easier to set up the system in a new environment.
 *   `cmd/main.go`: The main entry point for the Go application. It initializes the configuration, database, and message handlers.
 *   `internal/`: This directory contains the core logic of the Go application, separated into packages for configuration, database interaction, message handling, and data models.
@@ -62,25 +62,69 @@ The project is organized into several key directories and files:
     python belt_app_streaming.py
     ```
 
+### Local Testing
+
+The `belt_app_streaming.py` script is provided for local testing. It simulates the data flow of belt sensors and sends the data to the Kafka and MQTT brokers.
+
+To use the script for local testing, you need to have the following applications running in the background:
+*   Kafka
+*   MQTT
+
+The `.env` file should be configured for your local environment. The default configuration is as follows:
+
+```
+# Local Development .env
+
+# Kafka Configuration
+KAFKA_BROKERS=localhost:9092
+VITALS_TOPIC=patient-vitals-data-topic
+CONSUMER_GROUP=belt_presense
+
+# Presense API Configuration (Using Test/Staging)
+PRESENSE_API_ENDPOINT=https://staging-vitals.presense.icu/data
+PRESENSE_API_KEY=814xqfGJWSVfKgfFOvQz24MLAuRsuDA3
+DATA_SOURCE=Arun-Local
+USE_TEST_URL=true
+
+# MQTT Configuration (Local)
+MQTT_BROKER_URL=tcp://localhost:1883
+MQTT_CLIENT_ID=MqttCallService_local
+MQTT_USERNAME=
+MQTT_PASSWORD=
+
+# Application Configuration
+DB_PATH=../belt_presense.db
+WRITE_TO_FILE=true
+LOG_TO_CONSOLE=true
+```
+
 ## Deployment
 
-The `deploy.sh` script is provided to automate the deployment of the application. This script will likely perform the following actions:
+The `deploy.sh` script is provided to automate the deployment of the application. This script performs the following actions:
 
-*   Build the Go application.
-*   Copy the necessary files to the deployment server.
-*   Restart the application services.
+1.  **Builds the Go application** for a Linux ARM64 environment.
+2.  **Creates a deployment package** (`package.tar.gz`) containing the binary, `install.sh`, and the production configuration file (`.env.prod` renamed to `.env`).
+3.  **Transfers the package** to the target server via a bastion host.
+4.  **Executes the `install.sh` script** on the target server to install the application.
+5.  **Cleans up** the temporary files on the target and local machines.
 
-To use the script, you may need to make it executable:
-```bash
-chmod +x deploy.sh
-```
+### Environment-Specific Changes
 
-Then, you can run it with:
-```bash
-./deploy.sh
-```
+Before running the `deploy.sh` script, you need to configure the following variables in the script:
 
-*(Note: The deployment script may need to be configured with the specific details of your deployment environment.)*
+*   `BASTION_HOST`: The IP address of the bastion host.
+*   `TARGET_HOST`: The IP address of the target server.
+*   `LOCAL_PEM_KEY`: The path to your local PEM key for accessing the bastion host.
+
+### Deployment Process
+
+The `deploy.sh` script uses `.env.prod` for the production deployment. This file is copied into the deployment package and renamed to `.env`. The `.env` file is used for local testing only and is not included in the deployment package.
+
+The files are loaded onto the server in the following steps:
+
+1.  The `package.tar.gz` file is copied from your local machine to the `/tmp` directory on the bastion host using `scp`.
+2.  The `package.tar.gz` file is then moved from the bastion host to the home directory (`~/`) on the target server using `scp`.
+3.  The `install.sh` script is executed on the target server, which unpacks the `package.tar.gz` file into a temporary directory (`~/install_package`), runs the installation, and then cleans up the temporary files.
 
 ## Contributing
 
