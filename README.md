@@ -4,8 +4,19 @@ This project provides a robust system for monitoring the presence of a belt, des
 
 ## Architecture
 
-The application's architecture is designed for scalability and clear separation of concerns, with the core logic residing in the `internal` directory:
+The application's architecture is designed for scalability and clear separation of concerns, with the core logic residing in the `internal` directory.
 
+```mermaid
+graph TD
+    A[Upstream Service] -- "Start/Stop Commands" --> B(MQTT Broker)
+    B -- "Control Signals" --> C{Belt Presence Application}
+    D[Belt Sensor] -- "Sensor Data" --> E(Kafka Broker)
+    E -- "Data Stream" --> C
+    C -- "State Management" --> F[(SQLite Database)]
+    C -- "Processed Data" --> G[Presense API]
+```
+
+*   **`internal/config/config.go`:** This package is responsible for managing the application's configuration. It loads settings from a `.env` file, providing a centralized and easily manageable way to configure the application.
 *   **`internal/handler/kafka_handler.go`:** This handler is responsible for consuming the main data stream of belt sensor data from a Kafka topic. It decodes the incoming messages and processes them for real-time monitoring.
 *   **`internal/handler/mqtt_handler.go`:** This handler manages control signals for the application. It subscribes to an MQTT topic to listen for `start` and `stop` commands from an upstream service, allowing for dynamic control of the monitoring process.
 *   **`internal/database/sqlite.go`:** This package provides all the functions for interacting with the SQLite database. It is used for state management, storing the application's operational state to ensure data integrity and to enable graceful restarts.
@@ -53,10 +64,11 @@ The following files are generated locally during development and should not be c
 
 1.  **Configure the environment:** Create a `.env` file in the root directory using `.env.prod` as a template.
 
-2.  **Run the application:** The following command starts the application and includes the necessary build flags for CGO.
+2.  **Run the application:** The application's entry point is `cmd/main.go`. To run the application, use the following command from the root of the project:
     ```bash
     go run -tags=CGO_ENABLED_1 cmd/main.go
     ```
+    This command compiles and runs the `main.go` file. The `-tags=CGO_ENABLED_1` flag is included as it is specified in the project's launch configuration.
 
 ## Optional: Local Testing with `belt_app_streaming.py`
 
