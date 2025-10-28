@@ -4,18 +4,23 @@ This project provides a robust system for monitoring the presence of a belt, des
 
 ## Architecture
 
-The application's architecture is designed for scalability and clear separation of concerns:
+The application's architecture is designed for scalability and clear separation of concerns, with the core logic residing in the `internal` directory:
 
-*   **Kafka (`internal/handler/kafka_handler.go`):** Manages the primary data stream, consuming belt sensor data from a Kafka topic for real-time processing.
-*   **MQTT (`internal/handler/mqtt_handler.go`):** Handles control signals, listening for `start` and `stop` commands from an upstream service to dynamically manage the monitoring process.
-*   **SQLite (`internal/database/sqlite.go`):** Provides state management by storing the application's operational state, ensuring data integrity and enabling graceful restarts.
+*   **`internal/handler/kafka_handler.go`:** This handler is responsible for consuming the main data stream of belt sensor data from a Kafka topic. It decodes the incoming messages and processes them for real-time monitoring.
+*   **`internal/handler/mqtt_handler.go`:** This handler manages control signals for the application. It subscribes to an MQTT topic to listen for `start` and `stop` commands from an upstream service, allowing for dynamic control of the monitoring process.
+*   **`internal/database/sqlite.go`:** This package provides all the functions for interacting with the SQLite database. It is used for state management, storing the application's operational state to ensure data integrity and to enable graceful restarts.
+*   **`internal/models/models.go`:** This file defines the data structures (structs) for the application. It includes models for decoding incoming Kafka and MQTT messages, as well as for structuring the data for any outgoing API payloads.
 
 ## Project Structure
 
-The core of the project is organized as follows:
+The project is organized as follows:
 
-*   `cmd/main.go`: The application's main entry point, responsible for initializing the configuration, database, and message handlers.
-*   `internal/`: Contains the core business logic, neatly separated into packages for configuration, database interaction, message handling, and data models.
+*   `cmd/main.go`: The application's main entry point, responsible for initializing the configuration, database, and the message handlers.
+*   `internal/`: Contains the core business logic, separated into the following packages:
+    *   `config/`: Manages application configuration.
+    *   `database/`: Handles all database interactions.
+    *   `handler/`: Contains the logic for processing messages from Kafka and MQTT.
+    *   `models/`: Defines the data structures for the application.
 *   `processed_data/`: Contains sample JSON files that can be used for reference or testing. This data is not directly used by the main application.
 
 The following files are generated locally during development and should not be committed to the repository:
